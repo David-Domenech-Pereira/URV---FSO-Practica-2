@@ -1,0 +1,27 @@
+cocos0 : cocos0.c winsuport.o winsuport.h
+	gcc -Wall cocos0.c winsuport.o -o cocos0 -lcurses
+
+
+cocos1 : cocos1.c winsuport.o winsuport.h
+	gcc -Wall cocos1.c winsuport.o -o cocos1 -lcurses -lpthread
+
+
+cocos2 : cocos2.c winsuport.o winsuport.h
+	gcc -Wall cocos2.c winsuport.o -o cocos2 -lcurses -lpthread
+
+cocos3 : cocos3.c winsuport2.o winsuport2.h memoria.o missatge.o
+	gcc -Wall cocos3.c memoria.o missatge.o winsuport2.o -o cocos3 -lcurses -lpthread
+	gcc -Wall fantasmes3.c memoria.o missatge.o winsuport2.o -o fantasmes3 -lcurses
+
+memoria.o : memoria.c memoria.h
+	gcc -c -Wall memoria.c -o memoria.o 
+missatge.o : missatge.c missatge.h
+	gcc -c -Wall missatge.c -o missatge.o
+winsuport2.o : winsuport2.c winsuport2.h
+	gcc -Wall -c winsuport2.c -o winsuport2.o
+
+winsuport.o : winsuport.c winsuport.h
+	gcc -Wall -c winsuport.c -o winsuport.o 
+
+clean:
+	rm -f cocos0 cocos1 cocos2 cocos3 winsuport.o
