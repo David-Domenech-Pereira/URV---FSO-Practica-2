@@ -66,9 +66,10 @@
 #include <stdio.h>		/* incloure definicions de funcions estandard */
 #include <stdlib.h>		/* per exit() */
 #include <unistd.h>		/* per getpid() */
-#include "winsuport.h"		/* incloure definicions de funcions propies */
+#include "winsuport2.h"		/* incloure definicions de funcions propies */
 #include <pthread.h>
 #include "memoria.h"
+#include <sys/wait.h>
 
 #define MIN_FIL 7		/* definir limits de variables globals */
 #define MAX_FIL 25
@@ -257,8 +258,9 @@ void inicialitza_joc(void)
   int r,i,j;
   char strin[12];
   int ex_code = 0;
+  fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
   r = win_carregatauler(tauler,n_fil1-1,n_col,c_req);
-  if (r == 0)
+  if (r >= 0)
   {
   
 	    mc.a = win_quincar(mc.f,mc.c);
@@ -284,29 +286,29 @@ void inicialitza_joc(void)
 	    }
     
   }
-  if(r==0){
-	cocos = 0;			/* compta el numero total de cocos */
-	for (i=0; i<n_fil1-1; i++)
-	  for (j=0; j<n_col; j++){
-     
-	    if (win_quincar(i,j)=='.') cocos++;
-       
-    }
+  if(r >=0){
+    cocos = 0;			/* compta el numero total de cocos */
+    for (i=0; i<n_fil1-1; i++)
+      for (j=0; j<n_col; j++){
+      
+        if (win_quincar(i,j)=='.') cocos++;
+        
+      }
 
-	 
-	win_escricar(mc.f,mc.c,'0',NO_INV); 
-	 
+    
+    win_escricar(mc.f,mc.c,'0',NO_INV); 
+    
 
- 
-	if (mc.a == '.') cocos--;	/* menja primer coco */
-   
+  
+    if (mc.a == '.') cocos--;	/* menja primer coco */
+    
 
-	sprintf(strin,"Cocos: %d", cocos); 
+    sprintf(strin,"Cocos: %d", cocos); 
+    
+    win_escristr(strin);
    
-  win_escristr(strin);
-   
-}
-  if (r != 0)
+  }
+  if (r < 0)
   {	win_fi();
 	fprintf(stderr,"Error: no s'ha pogut inicialitzar el joc:\n");
 	switch (r)
@@ -329,7 +331,8 @@ void inicialitza_joc(void)
 int main(int n_args, const char *ll_args[])
 {
     int  rc;		/* variables locals */
-
+     void *p_win;
+       char a4[20],a5[10],a6[10];
     srand(getpid());		/* inicialitza numeros aleatoris */
 
     
@@ -344,17 +347,26 @@ int main(int n_args, const char *ll_args[])
     if (n_args == 3) retard = atoi(ll_args[2]);
     else retard = 100;
     
-
-    rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
-    if (rc == 0)		/* si aconsegueix accedir a l'entorn CURSES */
+    fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
+     rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
+    if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
     {
-        
+     
+      int id_win = ini_mem(rc);	/* crear zona mem. compartida */
+      p_win = map_mem(id_win);	/* obtenir adres. de mem. compartida */
+      sprintf(a4,"%i",id_win);
+      sprintf(a5,"%i",n_fil1);	/* convertir mides camp en string */
+      sprintf(a6,"%i",n_col);
+
+      win_set(p_win,n_fil1,n_col);		/* crea acces a finestra oberta */
+         fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
         inicialitza_joc();
+        
          /**
          * CREEM THREAD I PROCESSOS
          */
         int i;
-        int id_thread;
+    
         char str_fi1[20];
         int id_fi1 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
         int *p_fi1 = map_mem(id_fi1); //fem el mapeig de la zona de memoria compartida
@@ -415,7 +427,7 @@ int main(int n_args, const char *ll_args[])
             tpid[n] = fork();
             if(tpid[n] == (pid_t) 0){
                 sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
-                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,str_df,str_dc,id_proces,str_fantasmes,str_mc,str_retard,(char *)0)==-1){
+                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,str_df,str_dc,id_proces,str_fantasmes,str_mc,str_retard,a4,a5,a6,(char *)0)==-1){
                     fprintf(stderr,"Error al crear el thread del fantasma %d\n",i);
                     exit(0);
                 }
@@ -431,7 +443,7 @@ int main(int n_args, const char *ll_args[])
         */
         
         for(int th=0; th<n_fantasmes;th++){
-            waitpid(tpid[th],&fi2, NULL); //esperem que el fill acabi
+            waitpid(tpid[th],&fi2,NULL); //esperem que el fill acabi
         }
         pthread_join(coco, (void **)&fi1);
         elim_mem(id_fi1); //eliminem la zona de memoria compartida
@@ -456,6 +468,7 @@ int main(int n_args, const char *ll_args[])
             break;
         case -4: fprintf(stderr,"no s'ha pogut crear la finestra!\n");
             break;
+        default: fprintf(stderr,"error desconegut, codi %d!\n",rc);
         }
         exit(6);
     }
