@@ -260,7 +260,10 @@ void inicialitza_joc(void)
   int ex_code = 0;
   fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
   r = win_carregatauler(tauler,n_fil1-1,n_col,c_req);
-  if (r >= 0)
+  if(r>0){
+    fprintf(stderr,"\nr=%d",r);
+  }
+  if (r == 0)
   {
   
 	    mc.a = win_quincar(mc.f,mc.c);
@@ -286,7 +289,7 @@ void inicialitza_joc(void)
 	    }
     
   }
-  if(r >=0){
+  if(r ==0){
     cocos = 0;			/* compta el numero total de cocos */
     for (i=0; i<n_fil1-1; i++)
       for (j=0; j<n_col; j++){
@@ -352,13 +355,13 @@ int main(int n_args, const char *ll_args[])
     if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
     {
      
-      int id_win = ini_mem(rc);	/* crear zona mem. compartida */
-      p_win = map_mem(id_win);	/* obtenir adres. de mem. compartida */
-      sprintf(a4,"%i",id_win);
-      sprintf(a5,"%i",n_fil1);	/* convertir mides camp en string */
-      sprintf(a6,"%i",n_col);
+        int id_win = ini_mem(rc);	/* crear zona mem. compartida */
+        p_win = map_mem(id_win);	/* obtenir adres. de mem. compartida */
+        sprintf(a4,"%i",id_win);
+        sprintf(a5,"%i",n_fil1);	/* convertir mides camp en string */
+        sprintf(a6,"%i",n_col);
 
-      win_set(p_win,n_fil1,n_col);		/* crea acces a finestra oberta */
+        win_set(p_win,n_fil1,n_col);		/* crea acces a finestra oberta */
          fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
         inicialitza_joc();
         
