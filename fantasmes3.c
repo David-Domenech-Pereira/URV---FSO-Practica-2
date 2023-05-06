@@ -71,7 +71,6 @@
         nd = 0; //numero de direccions disponibles
         for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
         {
-            
             vk = (f1.d + k) % 4;		/* direccio veina */
             if (vk < 0) vk += 4;		/* corregeix negatius */
 
@@ -86,8 +85,8 @@
         }
         if (nd == 0){			/* si no pot continuar, */
             f1.d = (f1.d + 2) % 4;		/* canvia totalment de sentit */
-            }else
-            { 
+        }else
+        { 
             if (nd == 1){			/* si nomes pot en una direccio */
                 f1.d = vd[0];			/* li assigna aquesta */
             }
@@ -103,7 +102,10 @@
             f1.a = seg.a;	/* actualitza posicio */
             win_escricar(f1.f,f1.c,'1'+i,NO_INV);		/* redibuixa fantasma */
             
-            if (f1.a == '0') ret = 1;		/* ha capturat menjacocos */
+            if (f1.a == '0'){
+                ret = 1;		/* ha capturat menjacocos */
+                fprintf(stderr,"Fantasma %d capturat\n",i);
+            } 
             
         }
         fi2=ret;

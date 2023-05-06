@@ -75,7 +75,7 @@
 #define MIN_COL 10
 #define MAX_COL 80
 #define MAX_THREADS 10
-#define MAX_FANTASMES 100
+#define MAX_FANTASMES 20
 				/* definir estructures d'informacio */
 typedef struct {		/* per un objecte (menjacocos o fantasma) */
 	int f;				/* posicio actual: fila */

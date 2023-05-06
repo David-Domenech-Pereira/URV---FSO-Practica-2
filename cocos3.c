@@ -123,7 +123,10 @@ void carrega_parametres(const char *nom_fit)
   	exit(2);
   }
 
-  if (!feof(fit)) fscanf(fit,"%d %d %s %c\n",&n_fil1,&n_col,tauler,&c_req);
+  if (!feof(fit)){
+   fscanf(fit,"%d %d %s %c\n",&n_fil1,&n_col,tauler,&c_req);
+   fprintf(stderr,"\nHa carregat el tauler\n'\n");
+   }
   else {
 	fprintf(stderr,"Falten parametres al fitxer \'%s\'\n",nom_fit);
 	fclose(fit);
@@ -259,10 +262,11 @@ void inicialitza_joc(void)
   char strin[12];
   int ex_code = 0;
   fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
-  r = win_carregatauler(tauler,n_fil1-1,n_col,c_req);
-  if(r>0){
-    fprintf(stderr,"\nr=%d",r);
+  for(int i=0;i<4;i++){
+  	fprintf(stderr,"%c", tauler[i]);
   }
+  r = win_carregatauler(tauler,n_fil1-1,n_col,c_req);
+  
   if (r == 0)
   {
   
@@ -327,7 +331,22 @@ void inicialitza_joc(void)
   }
 }
 
+void actualitza_pantalla(){
+  char strin[12];
+  win_carregatauler(tauler,n_fil1-1,n_col,c_req);
+  for (int i=0; i<n_fil1-1; i++)
+      for (int j=0; j<n_col; j++){
+      
+        if (win_quincar(i,j)=='.') cocos++;
+        
+      }
 
+    
+  for(int i = 0; i < n_fantasmes; i++){
+    win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);
+  }
+  win_escricar(mc.f,mc.c,'0',NO_INV);
+}
 
 
 /* programa principal				    */
@@ -349,9 +368,10 @@ int main(int n_args, const char *ll_args[])
     //fprintf(stderr,"Fantasma %d: Fila %d i Columna %d\n",1,fantasmes[1].f,fantasmes[1].c);
     if (n_args == 3) retard = atoi(ll_args[2]);
     else retard = 100;
-    
+    //inicialitza_joc();
     fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
      rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
+     
     if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
     {
      
@@ -369,7 +389,7 @@ int main(int n_args, const char *ll_args[])
          * CREEM THREAD I PROCESSOS
          */
         int i;
-    
+    	
         char str_fi1[20];
         int id_fi1 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
         int *p_fi1 = map_mem(id_fi1); //fem el mapeig de la zona de memoria compartida
@@ -426,6 +446,8 @@ int main(int n_args, const char *ll_args[])
         }
         int n = 0;
         char id_proces[20];
+         //inicialitza_joc();
+        fprintf(stderr,"\nhi han %d fantasmes\n",n_fantasmes);
         for(i = 0; i < n_fantasmes; i++){
             tpid[n] = fork();
             if(tpid[n] == (pid_t) 0){
@@ -441,14 +463,22 @@ int main(int n_args, const char *ll_args[])
                 exit(0);
             }
         }
+         //inicialitza_joc();
         /*
         * FI CREACIÓ THREAD I PROCESSOS
         */
-        
+        do{
+          actualitza_pantalla();
+          win_retard(100);
+        }while(!fi1&&!fi2);
+       fprintf(stderr,"arriba\n");
         for(int th=0; th<n_fantasmes;th++){
             waitpid(tpid[th],&fi2,NULL); //esperem que el fill acabi
         }
+        fi2=fi2>>8;
+        fprintf(stderr,"arriba, %d\n", fi2);
         pthread_join(coco, (void **)&fi1);
+        
         elim_mem(id_fi1); //eliminem la zona de memoria compartida
         elim_mem(id_fi2); //eliminem la zona de memoria compartida
         elim_mem(id_df); //eliminem la zona de memoria compartida
