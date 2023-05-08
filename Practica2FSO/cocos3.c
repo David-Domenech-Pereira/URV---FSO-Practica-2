@@ -211,7 +211,7 @@ void * mou_menjacocos(void * null)
   do{
   
     tec = win_gettec();
-    //win_update();
+  
   if (tec != 0)
    switch (tec)		/* modificar direccio menjacocos segons tecla */
    {
@@ -237,7 +237,6 @@ void * mou_menjacocos(void * null)
       if (seg.a == '.')
       {
         cocos--;
-         fprintf(stderr,"cocos = %d\n",cocos);
         sprintf(strin,"Cocos: %d", cocos); win_escristr(strin);
         //sprintf(strin,"Fanta: %d",n_fantasmes); win_escristr(strin);
         if (cocos == 0) ret = 1;
@@ -266,7 +265,6 @@ void inicialitza_joc(void)
   for(int i=0;i<4;i++){
   	fprintf(stderr,"%c", tauler[i]);
   }
-    	
   r = win_carregatauler(tauler,n_fil1-1,n_col,c_req);
   
   if (r == 0)
@@ -303,7 +301,6 @@ void inicialitza_joc(void)
         if (win_quincar(i,j)=='.') cocos++;
         
       }
-      fprintf(stderr,"\nAL peincipi hi han cocos = %d\n",cocos);
 
     
     win_escricar(mc.f,mc.c,'0',NO_INV); 
@@ -311,7 +308,6 @@ void inicialitza_joc(void)
 
   
     if (mc.a == '.') cocos--;	/* menja primer coco */
-    fprintf(stderr,"Ara passen a cocos = %d\n",cocos);
     
 
     sprintf(strin,"Cocos: %d", cocos); 
@@ -333,7 +329,6 @@ void inicialitza_joc(void)
 	}
 	exit(7);
   }
-
 }
 
 void actualitza_pantalla(){
@@ -358,10 +353,8 @@ void actualitza_pantalla(){
 int main(int n_args, const char *ll_args[])
 {
     int  rc;		/* variables locals */
-    
      void *p_win;
        char a4[20],a5[10],a6[10];
-       //int n_fil, n_col;
     srand(getpid());		/* inicialitza numeros aleatoris */
 
     
@@ -376,14 +369,14 @@ int main(int n_args, const char *ll_args[])
     if (n_args == 3) retard = atoi(ll_args[2]);
     else retard = 100;
     //inicialitza_joc();
-    fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col); 
+    fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
      rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
      
     if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
     {
+     
         int id_win = ini_mem(rc);	/* crear zona mem. compartida */
         p_win = map_mem(id_win);	/* obtenir adres. de mem. compartida */
-        
         sprintf(a4,"%i",id_win);
         sprintf(a5,"%i",n_fil1);	/* convertir mides camp en string */
         sprintf(a6,"%i",n_col);
@@ -391,7 +384,6 @@ int main(int n_args, const char *ll_args[])
         win_set(p_win,n_fil1,n_col);		/* crea acces a finestra oberta */
          fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
         inicialitza_joc();
-          //win_set(p_win,n_fil1,n_col);	
         
          /**
          * CREEM THREAD I PROCESSOS
@@ -407,7 +399,7 @@ int main(int n_args, const char *ll_args[])
         char str_fi2[20];
         int id_fi2 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
         int *p_fi2 = map_mem(id_fi2); //fem el mapeig de la zona de memoria compartida
-        //*p_fi2 = fi2; //inicialitzem la zona de memoria compartida
+        *p_fi2 = fi2; //inicialitzem la zona de memoria compartida
         sprintf(str_fi2,"%i",id_fi2); //passem l'identificador de la zona de memoria compartida a un string
         // fem el mateix per df
         char str_df[20];
@@ -461,13 +453,13 @@ int main(int n_args, const char *ll_args[])
             if(tpid[n] == (pid_t) 0){
                 sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
                 if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,str_df,str_dc,id_proces,str_fantasmes,str_mc,str_retard,a4,a5,a6,(char *)0)==-1){
-                    fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
+                    fprintf(stderr,"Error al crear el thread del fantasma %d\n",i);
                     exit(0);
                 }
             }else if(tpid[n] >0){
                 n++; //incrementem el numero de threads creats si és el pare
             }else{
-                fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
+                fprintf(stderr,"Error al crear el thread del fantasma %d\n",i);
                 exit(0);
             }
         }
@@ -476,26 +468,21 @@ int main(int n_args, const char *ll_args[])
         * FI CREACIÓ THREAD I PROCESSOS
         */
         do{
-          //actualitza_pantalla();
-          win_update();
+          actualitza_pantalla();
           win_retard(100);
-          fi2 = *p_fi2;
-          *p_fi1 = fi1; //el controlem desde aquí
-          
         }while(!fi1&&!fi2);
-       
-         pthread_join(coco, (void **)&fi1);
+       fprintf(stderr,"arriba\n");
         for(int th=0; th<n_fantasmes;th++){
             waitpid(tpid[th],&fi2,NULL); //esperem que el fill acabi
         }
-        
-       
+        fi2=fi2>>8;
+        fprintf(stderr,"arriba, %d\n", fi2);
+        pthread_join(coco, (void **)&fi1);
         
         elim_mem(id_fi1); //eliminem la zona de memoria compartida
         elim_mem(id_fi2); //eliminem la zona de memoria compartida
         elim_mem(id_df); //eliminem la zona de memoria compartida
         elim_mem(id_dc); //eliminem la zona de memoria compartida
-        elim_mem(id_win);
 
         win_fi();
         if (fi1 == -1) printf("S'ha aturat el joc amb tecla RETURN!\n");

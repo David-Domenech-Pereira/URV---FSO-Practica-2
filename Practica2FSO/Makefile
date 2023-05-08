@@ -18,10 +18,10 @@ memoria.o : memoria.c memoria.h
 missatge.o : missatge.c missatge.h
 	gcc -c -Wall missatge.c -o missatge.o
 winsuport2.o : winsuport2.c winsuport2.h
-	gcc -c -Wall winsuport2.c -o winsuport2.o
+	gcc -Wall -c winsuport2.c -o winsuport2.o
 
 winsuport.o : winsuport.c winsuport.h
-	gcc -c -Wall winsuport.c -o winsuport.o 
+	gcc -Wall -c winsuport.c -o winsuport.o 
 
 clean:
 	rm -f cocos0 cocos1 cocos2 cocos3 winsuport.o
