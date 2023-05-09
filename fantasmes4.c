@@ -202,3 +202,11 @@
     vector.c = (c1-c2);
     return vector.f*vector.f + vector.c*vector.c; //teorema de pitàgores
  }
+
+/*
+* funció que llegeix la bustia
+*/
+void * read_bustia(int id_bustia)
+{
+
+}
