@@ -333,8 +333,6 @@ void inicialitza_joc(void)
 
 int ultim_fantasma_creat = 0;
 void crear_fantasma(){
- 
-  
         int i = ultim_fantasma_creat; //creem el ultim fantasma
         
         if(i < n_fantasmes){ //si no hem creat tots els fantasmes
@@ -400,6 +398,8 @@ void crear_fantasma(){
           *p_retard = retard; //inicialitzem la zona de memoria compartida
           sprintf(str_retard,"%i",id_retard); //passem l'identificador de la zona de memoria compartida a un string
           //fem el mateix d'abans amb la variable retard
+          char str_fantasmes[20];
+          sprintf(str_fantasmes, "%i", n_fantasmes);
 
         int id_bustia=ini_mis();
         char str_bustia[20];
@@ -417,7 +417,7 @@ void crear_fantasma(){
               tpid[n] = fork();
               if(tpid[n] == (pid_t) 0){
                   sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
-                  if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,str_bustia,(char *)0)==-1){
+                  if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,str_bustia,str_fantasmes,(char *)0)==-1){
                       fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
                       exit(0);
                   }

@@ -26,8 +26,49 @@
     objecte *mc;      		/* informacio del menjacocos */
    
     int *retard;
- int main(int n_args, char *ll_args[]){
+    pthread_t bustia;
+    int mode_normal=0;
+    int numero_fantasmes;
 
+void enviar_missatge(int valor, int id_bustia){
+    char missatge[20];
+    sprintf(missatge,"%d",valor);
+    for(int i = 0; i < (numero_fantasmes-1); i++){ //tenim en compte que el fantasma actual ja ho sap
+        sendM(id_bustia, missatge, sizeof(missatge)); //enviem el missatge amb el mode a tots els fantasmes
+    }
+    
+ }
+ int distancia_entre_punts(f1, c1, f2, c2){
+    //métode que cálcula la distancia al quadrat entre 2 punts
+    //fem el vector
+    typedef struct{
+        int f;
+        int c;
+    }vector_t;
+    vector_t vector;
+    vector.f = (f1-f2);
+    vector.c = (c1-c2);
+    return vector.f*vector.f + vector.c*vector.c; //teorema de pitàgores
+ }
+
+/*
+* funció que llegeix la bustia
+*/
+void * read_bustia(void *index)
+{
+    char missatge[20];
+    int id_bustia = (intptr_t) index;
+    do{
+        receiveM(id_bustia, missatge);
+        mode_normal=atoi(missatge);
+    }while(1);
+   
+
+}
+
+
+ int main(int n_args, char *ll_args[]){
+    int fantasma_trobat = -1; //per defecte l'iniciem a -1
     void *p_win;
     int id_fi1 = atoi(ll_args[1]);
     int id_fi2 = atoi(ll_args[2]);
@@ -49,10 +90,10 @@
     //int id_win = atoi(ll_args[9]);
     //int fil = atoi(ll_args[10]);
     //int col = atoi(ll_args[11]);
-    int id_fantasma_trobat=atoi(ll_args[10]);   //index del fantasma que ha trobat el mensjacocos
+   /* int id_fantasma_trobat=atoi(ll_args[10]);   //index del fantasma que ha trobat el mensjacocos
     int id_mode_normal=atoi(ll_args[11]); 
     int *p_fantasma_trobat=map_mem(id_fantasma_trobat);
-    int *p_mode_normal=map_mem(id_mode_normal)
+    int mode_normal=map_mem(id_mode_normal)*/
     
 
     mc = map_mem(id_mc);
@@ -83,6 +124,13 @@
     }
     int n_fil = atoi(ll_args[8]);		/* obtenir dimensions del camp de joc */
     int n_col = atoi(ll_args[9]);
+    int id_bustia=atoi(ll_args[10]);
+    numero_fantasmes = atoi(ll_args[11]);
+    
+     if(pthread_create(&bustia,NULL,read_bustia,(void *) id_bustia)!=0){
+              fprintf(stderr,"Error al crear el thread de la bustia del procés %d\n",i);
+              exit(1);
+          }
 
     //win_set((void *)id_win,n_fil,n_col);	/* crea acces a finestra oberta pel proces pare */
     win_set(p_win,n_fil,n_col);
@@ -109,11 +157,11 @@
             seg.f = f1.f + df[vk]; /* calcular posicio en la nova dir.*/
             seg.c = f1.c + dc[vk];
             seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
-            if ((seg.a==' ') || (seg.a=='.') || (seg.a=='0') || !*p_mode_normal) //si está disponible o no estem en mode normal
+            if ((seg.a==' ') || (seg.a=='.') || (seg.a=='0') || !mode_normal) //si está disponible o no estem en mode normal
             { 
             
                 vd[nd] = vk;			/* memoritza com a direccio possible */
-                if(!*p_mode_normal){
+                if(!mode_normal){
                     //treiem distancia entre el fantasma i el comecocos, la guardem en una taula
                     distancia[nd] = distancia_entre_punts(f1.f, f1.c, mc->f, mc->c);
                 }
@@ -130,7 +178,7 @@
             if (nd == 1){			/* si nomes pot en una direccio */
                 f1.d = vd[0];			/* li assigna aquesta */
             }
-            else if(*p_mode_normal){				/* altrament */
+            else if(mode_normal){				/* altrament */
                 f1.d = vd[rand() % nd];		/* segueix una dir. aleatoria */
             }else{
                 //hem de mirar totes les direccions quina está més a prop del fantasma
@@ -151,13 +199,14 @@
             f1.f = seg.f; 
             f1.c = seg.c; 
             f1.a = seg.a;	/* actualitza posicio */
-            win_escricar(f1.f,f1.c,'1'+i,NO_INV);		/* redibuixa fantasma */
+     
             fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
             
             if (f1.a == '0'){
                 ret = 1;		/* ha capturat menjacocos */
                 fprintf(stderr,"Fantasma %d capturat\n",i);
-            }else if(*p_mode_normal||*p__fantasma_trobat == i){
+            }else if(mode_normal||fantasma_trobat == i){
+                //fantasma_trobat és -1 si no es sap qui l'ha trobat, només ho sap el que l'ha trobat
                 //recorrem tota la direcció mentre sigui '.' o ' '
                 int fila_actual = f1.f;
                 int col_actual = f1.c;
@@ -166,21 +215,24 @@
                     col_actual += dc[f1.d]; //avancem en la direcció
                 }
                 if(win_quincar(fila_actual, col_actual) == '0'){
+                  
+                    mode_normal=0;    //activar mode cacera
+                    enviar_missatge(mode_normal, id_bustia); //enviem el mode normal
+                    fantasma_trobat=i;  //indicar fantasma que l'ha trobat
+                    
+                }else if(fantasma_trobat == i){ //si arriba no l'ha trobat, és a dir s'ha trobat una paret
+                //si és el que l'havia trobat al principi el deixa de veure
+                    fantasma_trobat = -1;
                     //TODO
-                    win_escricar(f1.f,f1.c,(char) ('1'+i),INVERS);	
-                    *p_mode_normal=0;
-                    *p__fantasma_trobat=i;
-                    //sendM()
-                    //hem d'enviar el missatge d'on está el menjacocos
-                    //invertir fantasma
-                    //activar mode cacera
-                    //indicar fantasma que l'ha trobat
-                }else if(*p__fantasma_trobat == i){ //si és el que l'ha trobat
-                    //TODO
-                    //no está al camp de visió
-                    //desactivar mode cacera
-                    //dibuixar fantasmes normal
+                    mode_normal=1;    //desactivar mode cacera
+                    enviar_missatge(mode_normal, id_bustia); //enviem el mode normal
+                    
                 }
+            }
+            if(fantasma_trobat == i){
+                win_escricar(f1.f,f1.c,(char) ('1'+i),INVERS);	//dibuixar fantasma invers
+            }else{
+                win_escricar(f1.f,f1.c,(char) ('1'+i),NO_INV);	//dibuixar fantasmes normal
             }
            
             
@@ -195,23 +247,4 @@
    
     return (fi2); 
  }
- int distancia_entre_punts(f1, c1, f2, c2){
-    //métode que cálcula la distancia al quadrat entre 2 punts
-    //fem el vector
-    typedef struct{
-        int f;
-        int c;
-    }vector_t;
-    vector_t vector;
-    vector.f = (f1-f2);
-    vector.c = (c1-c2);
-    return vector.f*vector.f + vector.c*vector.c; //teorema de pitàgores
- }
-
-/*
-* funció que llegeix la bustia
-*/
-void * read_bustia(int id_bustia)
-{
-
-}
+ 
