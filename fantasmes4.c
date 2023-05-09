@@ -51,7 +51,7 @@
     //int col = atoi(ll_args[11]);
     int id_fantasma_trobat=atoi(ll_args[10]);   //index del fantasma que ha trobat el mensjacocos
     int id_mode_normal=atoi(ll_args[11]); 
-    int *pfantasma_trobat=map_mem(id_fantasma_trobat);
+    int *p_fantasma_trobat=map_mem(id_fantasma_trobat);
     int *p_mode_normal=map_mem(id_mode_normal)
     
 
