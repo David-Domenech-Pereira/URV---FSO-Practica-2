@@ -50,8 +50,9 @@
     //int fil = atoi(ll_args[10]);
     //int col = atoi(ll_args[11]);
     int id_fantasma_trobat=atoi(ll_args[10]);   //index del fantasma que ha trobat el mensjacocos
-    int mode_normal=atoi(ll_args[11]); 
-    
+    int id_mode_normal=atoi(ll_args[11]); 
+    int *p_fantasma_trobat=map_mem(id_fantasma_trobat);
+    int *p_mode_normal=map_mem(id_mode_normal)
     
 
     mc = map_mem(id_mc);
@@ -103,11 +104,11 @@
             seg.f = f1.f + df[vk]; /* calcular posicio en la nova dir.*/
             seg.c = f1.c + dc[vk];
             seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
-            if ((seg.a==' ') || (seg.a=='.') || (seg.a=='0') || !mode_normal) //si está disponible o no estem en mode normal
+            if ((seg.a==' ') || (seg.a=='.') || (seg.a=='0') || !*p_mode_normal) //si está disponible o no estem en mode normal
             { 
             
                 vd[nd] = vk;			/* memoritza com a direccio possible */
-                if(!mode_normal){
+                if(!*p_mode_normal){
                     //treiem distancia entre el fantasma i el comecocos, la guardem en una taula
                     distancia[nd] = distancia_entre_punts(f1.f, f1.c, mc->f, mc->c);
                 }
@@ -124,7 +125,7 @@
             if (nd == 1){			/* si nomes pot en una direccio */
                 f1.d = vd[0];			/* li assigna aquesta */
             }
-            else if(mode_normal){				/* altrament */
+            else if(*p_mode_normal){				/* altrament */
                 f1.d = vd[rand() % nd];		/* segueix una dir. aleatoria */
             }else{
                 //hem de mirar totes les direccions quina está més a prop del fantasma
@@ -151,7 +152,7 @@
             if (f1.a == '0'){
                 ret = 1;		/* ha capturat menjacocos */
                 fprintf(stderr,"Fantasma %d capturat\n",i);
-            }else if(mode_normal||fantasma_trobat == i){
+            }else if(*p_mode_normal||*p__fantasma_trobat == i){
                 //recorrem tota la direcció mentre sigui '.' o ' '
                 int fila_actual = f1.f;
                 int col_actual = f1.c;
@@ -162,13 +163,14 @@
                 if(win_quincar(fila_actual, col_actual) == '0'){
                     //TODO
                     win_escricar(f1.f,f1.c,(char) ('1'+i),INVERS);	
-                    mode_normal=0;
-                    *fantasma_trobat=i;
+                    *p_mode_normal=0;
+                    *p__fantasma_trobat=i;
+                    //sendM()
                     //hem d'enviar el missatge d'on está el menjacocos
                     //invertir fantasma
                     //activar mode cacera
                     //indicar fantasma que l'ha trobat
-                }else if(fantasma_trobat == i){ //si és el que l'ha trobat
+                }else if(*p__fantasma_trobat == i){ //si és el que l'ha trobat
                     //TODO
                     //no está al camp de visió
                     //desactivar mode cacera
