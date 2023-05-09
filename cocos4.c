@@ -113,6 +113,8 @@ int fi1=0, fi2=0;
 int xocs=0;
 char xocs[MAX_F][MAX_C];
 
+pthread_t bustia;
+
 /* funcio per realitzar la carrega dels parametres de joc emmagatzemats */
 /* dins d'un fitxer de text, el nom del qual es passa per referencia a  */
 /* 'nom_fit'; si es detecta algun problema, la funcio avorta l'execucio */
@@ -196,8 +198,6 @@ void carrega_parametres(const char *nom_fit)
   printf("prem una tecla per continuar:\n");
   getchar();
 }
-
-
 
 
 
@@ -400,6 +400,11 @@ void crear_fantasma(){
           *p_retard = retard; //inicialitzem la zona de memoria compartida
           sprintf(str_retard,"%i",id_retard); //passem l'identificador de la zona de memoria compartida a un string
           //fem el mateix d'abans amb la variable retard
+
+        int id_bustia=ini_mis();
+        char str_bustia[20];
+        sprintf(str_bustia, "%i", id_bustia);
+
           if(pthread_create(&coco,NULL,mou_menjacocos,NULL)!=0){
               fprintf(stderr,"Error al crear el thread del menjacocos\n");
               exit(1);
@@ -412,7 +417,7 @@ void crear_fantasma(){
               tpid[n] = fork();
               if(tpid[n] == (pid_t) 0){
                   sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
-                  if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,(char *)0)==-1){
+                  if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,str_bustia,(char *)0)==-1){
                       fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
                       exit(0);
                   }
@@ -448,7 +453,7 @@ int main(int n_args, const char *ll_args[])
     if (n_args == 3) retard = atoi(ll_args[2]);
     else retard = 100;
     //inicialitza_joc();
-    fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col); 
+   // fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col); 
      rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
      
     if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
@@ -463,6 +468,9 @@ int main(int n_args, const char *ll_args[])
         win_set(p_win,n_fil1,n_col);		/* crea acces a finestra oberta */
          fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
         inicialitza_joc();
+        
+        
+
           //win_set(p_win,n_fil1,n_col);	
         
          

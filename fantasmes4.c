@@ -60,8 +60,13 @@
     objecte *fantasmes = map_mem(id_f); //punter a la memoria compartida fantasmes
 
     objecte f1 = fantasmes[i];
-    fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
+    //fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
 
+    if(pthread_create(&bustia,NULL,rebre_missatges,)!=0){
+              fprintf(stderr,"Error al crear el thread del menjacocos\n");
+              exit(1);
+          }
+          
 
     if(i < 0){
             fprintf(stderr,"Error: index incorrecte\n");
