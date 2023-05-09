@@ -1,11 +1,11 @@
 /**
-* @file cocos3.c
+* @file cocos4.c
 * @brief Codi que controla el moviment d'un joc menjacocos sense sincronització 
 * @author Assmaa Ouladali i David Domènech
 */
 /*****************************************************************************/
 /*									                                         */
-/*				     cocos3.c				                                 */
+/*				     cocos4.c				                                 */
 /*									                                         */
 /*     Programa inicial d'exemple per a les practiques 2.1 i 2.2 de FSO.     */
 /*     Es tracta del joc del menjacocos: es dibuixa un laberint amb una      */
@@ -110,8 +110,8 @@ int n_fantasmes = 0;
 int cocos;			/* numero restant de cocos per menjar */
 int retard;		    /* valor del retard de moviment, en mil.lisegons */
 int fi1=0, fi2=0;
-
-
+int xocs=0;
+char xocs[MAX_F][MAX_C];
 
 /* funcio per realitzar la carrega dels parametres de joc emmagatzemats */
 /* dins d'un fitxer de text, el nom del qual es passa per referencia a  */
@@ -233,27 +233,33 @@ void * mou_menjacocos(void * null)
     seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
     
 
-  if ((seg.a == ' ') || (seg.a == '.'))
-  {
-   
-      win_escricar(mc.f,mc.c,' ',NO_INV);		/* esborra posicio anterior */
-      mc.f = seg.f; mc.c = seg.c;			/* actualitza posicio */
-      win_escricar(mc.f,mc.c,'0',NO_INV);		/* redibuixa menjacocos */
-      if (seg.a == '.')
-      {
-        cocos--;
-         fprintf(stderr,"cocos = %d\n",cocos);
-        sprintf(strin,"Cocos: %d", cocos); win_escristr(strin);
-        //sprintf(strin,"Fanta: %d",n_fantasmes); win_escristr(strin);
-        if (cocos == 0) ret = 1;
+    if ((seg.a == ' ') || (seg.a == '.')) //si la següent posició és possible
+    {    
+        win_escricar(mc.f,mc.c,' ',NO_INV);		/* esborra posicio anterior */
+        mc.f = seg.f; mc.c = seg.c;			/* actualitza posicio */
+        win_escricar(mc.f,mc.c,'0',NO_INV);		/* redibuixa menjacocos */
+        if (seg.a == '.')
+        {
+          cocos--;
+          fprintf(stderr,"cocos = %d\n",cocos);
+          sprintf(strin,"Cocos: %d", cocos); win_escristr(strin);
+          //sprintf(strin,"Fanta: %d",n_fantasmes); win_escristr(strin);
+          if (cocos == 0) ret = 1;
+        }
+      
+    }else if(xocs<2){
+      //la següent posició és una pared
+      if(parets[seg.f][seg.c]==0){
+        //si no hem xocat abans conta com un xoc
+        parets[seg.f][seg.c]=1;
+        xocs++;
       }
-    
-  }
+    }
   
     fi1=ret;
     
   
-  win_retard(mc.r*retard);
+    win_retard(mc.r*retard);
   }while(!fi1 && !fi2);
 
   return ((void*) (intptr_t) fi1);
@@ -284,7 +290,7 @@ void inicialitza_joc(void)
 	    {
 	     
 	      for(int i = 0; i < n_fantasmes; i++){
-            
+            //TODO Treure això
 		       fantasmes[i].a = win_quincar(fantasmes[i].f,fantasmes[i].c);
            
 		       if (fantasmes[i].a == c_req){
@@ -341,64 +347,11 @@ void inicialitza_joc(void)
 
 }
 
-void actualitza_pantalla(){
-  char strin[12];
-  win_carregatauler(tauler,n_fil1-1,n_col,c_req);
-  for (int i=0; i<n_fil1-1; i++)
-      for (int j=0; j<n_col; j++){
-      
-        if (win_quincar(i,j)=='.') cocos++;
-        
-      }
-
-    
-  for(int i = 0; i < n_fantasmes; i++){
-    win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);
-  }
-  win_escricar(mc.f,mc.c,'0',NO_INV);
-}
 
 
-/* programa principal				    */
-int main(int n_args, const char *ll_args[])
-{
-    int  rc;		/* variables locals */
-    
-     void *p_win;
-       char str_win[20],str_n_fil[10],str_n_col[10];
-       //int n_fil, n_col;
-    srand(getpid());		/* inicialitza numeros aleatoris */
-
-    
-
-    if ((n_args != 2) && (n_args !=3))
-    {	fprintf(stderr,"Comanda: cocos0 fit_param [retard]\n");
-        exit(1);
-    }
-    carrega_parametres(ll_args[1]);
-    
-    //fprintf(stderr,"Fantasma %d: Fila %d i Columna %d\n",1,fantasmes[1].f,fantasmes[1].c);
-    if (n_args == 3) retard = atoi(ll_args[2]);
-    else retard = 100;
-    //inicialitza_joc();
-    fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col); 
-     rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
-     
-    if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
-    {
-        int id_win = ini_mem(rc);	/* crear zona mem. compartida */
-        p_win = map_mem(id_win);	/* obtenir adres. de mem. compartida */
-        
-        sprintf(str_win,"%i",id_win);
-        sprintf(str_n_fil,"%i",n_fil1);	/* convertir mides camp en string */
-        sprintf(str_n_col,"%i",n_col);
-
-        win_set(p_win,n_fil1,n_col);		/* crea acces a finestra oberta */
-         fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
-        inicialitza_joc();
-          //win_set(p_win,n_fil1,n_col);	
-        
-         /**
+void crear_fantasma(){
+  //TODO arreglar
+  /**
          * CREEM THREAD I PROCESSOS
          */
         int i;
@@ -480,8 +433,54 @@ int main(int n_args, const char *ll_args[])
         /*
         * FI CREACIÓ THREAD I PROCESSOS
         */
+}
+/* programa principal				    */
+int main(int n_args, const char *ll_args[])
+{
+    int  rc;		/* variables locals */
+    
+     void *p_win;
+       char str_win[20],str_n_fil[10],str_n_col[10];
+       //int n_fil, n_col;
+    srand(getpid());		/* inicialitza numeros aleatoris */
+
+    
+
+    if ((n_args != 2) && (n_args !=3))
+    {	fprintf(stderr,"Comanda: cocos0 fit_param [retard]\n");
+        exit(1);
+    }
+    carrega_parametres(ll_args[1]);
+    
+    //fprintf(stderr,"Fantasma %d: Fila %d i Columna %d\n",1,fantasmes[1].f,fantasmes[1].c);
+    if (n_args == 3) retard = atoi(ll_args[2]);
+    else retard = 100;
+    //inicialitza_joc();
+    fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col); 
+     rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
+     
+    if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
+    {
+        int id_win = ini_mem(rc);	/* crear zona mem. compartida */
+        p_win = map_mem(id_win);	/* obtenir adres. de mem. compartida */
+        
+        sprintf(str_win,"%i",id_win);
+        sprintf(str_n_fil,"%i",n_fil1);	/* convertir mides camp en string */
+        sprintf(str_n_col,"%i",n_col);
+
+        win_set(p_win,n_fil1,n_col);		/* crea acces a finestra oberta */
+         fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
+        inicialitza_joc();
+          //win_set(p_win,n_fil1,n_col);	
+        
+         
         do{
-          //actualitza_pantalla();
+          //Si ha xocat 2 cops hem de crear un nou fantasma
+          if(xocs == 2){
+            xocs = 0;
+            crear_fantasma(); //TODO Programar :)
+          }
+
           win_update();
           win_retard(100);
           fi2 = *p_fi2;
