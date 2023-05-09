@@ -152,7 +152,7 @@
             if (f1.a == '0'){
                 ret = 1;		/* ha capturat menjacocos */
                 fprintf(stderr,"Fantasma %d capturat\n",i);
-            }else if(*p_mode_normal||fantasma_trobat == i){
+            }else if(*p_mode_normal||*p__fantasma_trobat == i){
                 //recorrem tota la direcció mentre sigui '.' o ' '
                 int fila_actual = f1.f;
                 int col_actual = f1.c;
@@ -164,12 +164,13 @@
                     //TODO
                     win_escricar(f1.f,f1.c,(char) ('1'+i),INVERS);	
                     *p_mode_normal=0;
-                    *fantasma_trobat=i;
+                    *p__fantasma_trobat=i;
+                    //sendM()
                     //hem d'enviar el missatge d'on está el menjacocos
                     //invertir fantasma
                     //activar mode cacera
                     //indicar fantasma que l'ha trobat
-                }else if(fantasma_trobat == i){ //si és el que l'ha trobat
+                }else if(*p__fantasma_trobat == i){ //si és el que l'ha trobat
                     //TODO
                     //no está al camp de visió
                     //desactivar mode cacera
