@@ -152,7 +152,7 @@
                     //TODO
                     win_escricar((f1.f,f1.c,(char) ('1'+i),INVERS);	
                     mode_normal=0;
-                    
+                    *fantasma_trobat=i;
                     //hem d'enviar el missatge d'on está el menjacocos
                     //invertir fantasma
                     //activar mode cacera

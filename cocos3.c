@@ -450,6 +450,12 @@ int main(int n_args, const char *ll_args[])
         int *p_retard = map_mem(id_retard); //fem el mapeig de la zona de memoria compartida
         *p_retard = retard; //inicialitzem la zona de memoria compartida
         sprintf(str_retard,"%i",id_retard); //passem l'identificador de la zona de memoria compartida a un string
+
+        char str_fantasma_trobat[10];
+        int id_fantasma_trobat=ini_mem(sizeof(int)); 
+        int *p_fantasma_trobat= map_mem(id_fantasma_trobat);
+        sprintf(str_fantasma_trobat,"%i",id_fantasma_trobat); 
+
         //fem el mateix d'abans amb la variable retard
         if(pthread_create(&coco,NULL,mou_menjacocos,NULL)!=0){
             fprintf(stderr,"Error al crear el thread del menjacocos\n");
@@ -463,7 +469,7 @@ int main(int n_args, const char *ll_args[])
             tpid[n] = fork();
             if(tpid[n] == (pid_t) 0){
                 sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
-                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,(char *)0)==-1){
+                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,str_fantasma_trobat,(char *)0)==-1){
                     fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
                     exit(0);
                 }
