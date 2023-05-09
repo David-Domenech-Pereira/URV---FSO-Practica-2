@@ -455,6 +455,10 @@ int main(int n_args, const char *ll_args[])
         int id_fantasma_trobat=ini_mem(sizeof(int)); 
         int *p_fantasma_trobat= map_mem(id_fantasma_trobat);
         sprintf(str_fantasma_trobat,"%i",id_fantasma_trobat); 
+        char str_mode_normal[10];
+        int id_mode_normal=ini_mem(sizeof(int)); 
+        int *p_mode_normal= map_mem(id_mode_normal);
+        sprintf(str_mode_normal,"%i",id_mode_normal); 
 
         //fem el mateix d'abans amb la variable retard
         if(pthread_create(&coco,NULL,mou_menjacocos,NULL)!=0){
@@ -469,7 +473,7 @@ int main(int n_args, const char *ll_args[])
             tpid[n] = fork();
             if(tpid[n] == (pid_t) 0){
                 sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
-                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,str_fantasma_trobat,(char *)0)==-1){
+                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,str_fantasma_trobat,str_mode_normal,(char *)0)==-1){
                     fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
                     exit(0);
                 }

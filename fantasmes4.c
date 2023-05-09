@@ -49,6 +49,8 @@
     //int id_win = atoi(ll_args[9]);
     //int fil = atoi(ll_args[10]);
     //int col = atoi(ll_args[11]);
+    int id_fantasma_trobat=atoi(ll_args[10]);   //index del fantasma que ha trobat el mensjacocos
+    int mode_normal=atoi(ll_args[11]); 
     
     
 
