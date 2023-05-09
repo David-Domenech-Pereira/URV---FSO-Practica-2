@@ -82,7 +82,7 @@
     objecte seg;
     int ret;
     int k, vk, nd, vd[3];
-    int 
+    int distancia[3];
     ret = 0; 
     int z=0;
     do{
@@ -107,7 +107,7 @@
                 vd[nd] = vk;			/* memoritza com a direccio possible */
                 if(!mode_normal){
                     //treiem distancia entre el fantasma i el comecocos, la guardem en una taula
-                    
+                    distancia[nd] = distancia_entre_punts(f1.f, f1.c, mc->f, mc->c);
                 }
                 nd++;
             }
@@ -126,6 +126,14 @@
                 f1.d = vd[rand() % nd];		/* segueix una dir. aleatoria */
             }else{
                 //hem de mirar totes les direccions quina está més a prop del fantasma
+                minim = distancia[0];
+                f1.d = vd[0];
+                for(int j = 1; j < nd; j++){
+                    if(distancia[j] < minim){
+                        minim = distancia[j];
+                        f1.d = vd[j];
+                    }
+                }
             }
             seg.f = f1.f + df[f1.d];  /* calcular seguent posicio final */
             seg.c = f1.c + dc[f1.d];
@@ -151,7 +159,7 @@
                 }
                 if(win_quincar(fila_actual, col_actual) == '0'){
                     //TODO
-                    win_escricar((f1.f,f1.c,(char) ('1'+i),INVERS);	
+                    win_escricar(f1.f,f1.c,(char) ('1'+i),INVERS);	
                     mode_normal=0;
                     *fantasma_trobat=i;
                     //hem d'enviar el missatge d'on está el menjacocos
@@ -177,4 +185,16 @@
     }while (!(*fi1_p) && !(*fi2_p));//!fi1 && !fi2)
    
     return (fi2); 
+ }
+ int distancia_entre_punts(f1, c1, f2, c2){
+    //métode que cálcula la distancia al quadrat entre 2 punts
+    //fem el vector
+    typedef struct{
+        int f;
+        int c;
+    }vector_t;
+    vector_t vector;
+    vector.f = (f1-f2);
+    vector.c = (c1-c2);
+    return vector.f*vector.f + vector.c*vector.c; //teorema de pitàgores
  }
