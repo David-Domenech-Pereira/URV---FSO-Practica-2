@@ -292,9 +292,7 @@ void inicialitza_joc(void)
 		        ex_code = i;
 		        }
             
-		        win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);
-           
-		       
+		        win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);		       
            
 	      }
 	    }

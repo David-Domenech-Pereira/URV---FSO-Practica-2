@@ -111,7 +111,7 @@
                 }
             }
         }else{
-            //TODO
+            //TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
             //Els fantasmes es podran desplaçar directament cap al menjacocos travessant les parets del laberint.
 
         }
@@ -150,6 +150,9 @@
                 }
                 if(win_quincar(fila_actual, col_actual) == '0'){
                     //TODO
+                    win_escricar((f1.f,f1.c,(char) ('1'+i),INVERS);	
+                    mode_normal=0;
+                    
                     //hem d'enviar el missatge d'on está el menjacocos
                     //invertir fantasma
                     //activar mode cacera
