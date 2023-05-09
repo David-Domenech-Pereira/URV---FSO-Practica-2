@@ -91,8 +91,8 @@ typedef struct {		/* per un objecte (menjacocos o fantasma) */
 	char a;				/* caracter anterior en pos. actual */
 } objecte;
 
- int df[] = {-1, 0, 1, 0};	/* moviments de les 4 direccions possibles */
-    int dc[] = {0, -1, 0, 1};	/* dalt, esquerra, baix, dreta */
+int df[] = {-1, 0, 1, 0};	/* moviments de les 4 direccions possibles */
+int dc[] = {0, -1, 0, 1};	/* dalt, esquerra, baix, dreta */
 /* variables globals */
 int n_fil1, n_col;		/* dimensions del camp de joc */
 char tauler[70];		/* nom del fitxer amb el laberint de joc 70*/
