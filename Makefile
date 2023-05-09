@@ -13,7 +13,7 @@ cocos3 : cocos3.c memoria.o missatge.o winsuport2.o winsuport2.h fantasmes3.c
 	gcc -w cocos3.c memoria.o missatge.o winsuport2.o -o cocos3 -lcurses -lpthread
 	gcc -w fantasmes3.c memoria.o missatge.o winsuport2.o -o fantasmes3 -lcurses
 	
-cocos4: cocos4.c memoria.o missatge.o winsuport2.o winsuport2.h fantasmes4.c
+cocos4: cocos4.c memoria.o missatge.o winsuport2.o winsuport2.h fantasmes4.c semafor.o
 	gcc -w cocos4.c memoria.o missatge.o semafor.o  winsuport2.o -o cocos4 -lcurses -lpthread
 	gcc -w fantasmes4.c memoria.o missatge.o semafor.o winsuport2.o -o fantasmes4 -lcurses -lpthread
 
