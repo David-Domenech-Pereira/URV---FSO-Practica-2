@@ -286,24 +286,7 @@ void inicialitza_joc(void)
 	    mc.a = win_quincar(mc.f,mc.c);
 	    
 	    if (mc.a == c_req) r = -6;		/* error: menjacocos sobre pared */
-	    else
-	    {
-	     
-	      for(int i = 0; i < n_fantasmes; i++){
-            //TODO Treure això
-		       fantasmes[i].a = win_quincar(fantasmes[i].f,fantasmes[i].c);
-           
-		       if (fantasmes[i].a == c_req){
-		        r = -7;	/* error: fantasma sobre pared */
-		        ex_code = i;
-		        }
-            
-		        win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);
-           
-		       
-           
-	      }
-	    }
+	    
     
   }
   if(r ==0){
@@ -348,91 +331,100 @@ void inicialitza_joc(void)
 }
 
 
-
+int ultim_fantasma_creat = 0;
 void crear_fantasma(){
-  //TODO arreglar
-  /**
-         * CREEM THREAD I PROCESSOS
-         */
-        int i;
-    	
-        char str_fi1[20];
-        int id_fi1 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
-        int *p_fi1 = map_mem(id_fi1); //fem el mapeig de la zona de memoria compartida
-        *p_fi1 = fi1; //inicialitzem la zona de memoria compartida
-        sprintf(str_fi1,"%i",id_fi1); //passem l'identificador de la zona de memoria compartida a un string
-    //fem el mateix per fi2
-        char str_fi2[20];
-        int id_fi2 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
-        int *p_fi2 = map_mem(id_fi2); //fem el mapeig de la zona de memoria compartida
-        //*p_fi2 = fi2; //inicialitzem la zona de memoria compartida
-        sprintf(str_fi2,"%i",id_fi2); //passem l'identificador de la zona de memoria compartida a un string
-        // fem el mateix per df
-        char str_df[20];
-        int id_df = ini_mem(sizeof(int)*4); //creem la zona de memoria compartida
-        int *p_df = map_mem(id_df); //fem el mapeig de la zona de memoria compartida
-        p_df[0] = df[0]; //inicialitzem la zona de memoria compartida
-        p_df[1] = df[1]; //inicialitzem la zona de memoria compartida
-        p_df[2] = df[2]; //inicialitzem la zona de memoria compartida
-        p_df[3] = df[3]; //inicialitzem la zona de memoria compartida
-        sprintf(str_df,"%i",id_df); //passem l'identificador de la zona de memoria compartida a un string
-        //fem el mateix per dc
-        char str_dc[20];
-        int id_dc = ini_mem(sizeof(int)*4); //creem la zona de memoria compartida
-        int *p_dc = map_mem(id_dc); //fem el mapeig de la zona de memoria compartida
-        p_dc[0] = dc[0]; //inicialitzem la zona de memoria compartida
-        p_dc[1] = dc[1]; //inicialitzem la zona de memoria compartida
-        p_dc[2] = dc[2]; //inicialitzem la zona de memoria compartida
-        p_dc[3] = dc[3]; //inicialitzem la zona de memoria compartida
-        sprintf(str_dc,"%i",id_dc); //passem l'identificador de la zona de memoria compartida a un string
-        //creem zona de memoria compartida per fantsmes
-        char str_fantasmes[20];
-        int id_fantasmes = ini_mem(sizeof(objecte)*n_fantasmes); //creem la zona de memoria compartida
-        objecte *p_fantasmes = map_mem(id_fantasmes); //fem el mapeig de la zona de memoria compartida
-        for(i = 0; i < n_fantasmes; i++){
-            p_fantasmes[i] = fantasmes[i]; //inicialitzem la zona de memoria compartida
+ 
+  
+        int i = ultim_fantasma_creat; //creem el ultim fantasma
+        
+        if(i < n_fantasmes){ //si no hem creat tots els fantasmes
+          fantasmes[i].a = win_quincar(fantasmes[i].f,fantasmes[i].c);
+          
+          if (fantasmes[i].a == c_req){ //comprovem posició code ok
+            win_fi();
+            r = -7;	/* error: fantasma sobre pared */
+          
+            fprintf(stderr,"ERROR: posicio inicial del fantasma %d damunt la pared del laberint\n",i); 
+            exit(7);
+          }
+          
+          win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);
+          //TODO revisar paràmetres
+          char str_fi1[20];
+          int id_fi1 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
+          int *p_fi1 = map_mem(id_fi1); //fem el mapeig de la zona de memoria compartida
+          *p_fi1 = fi1; //inicialitzem la zona de memoria compartida
+          sprintf(str_fi1,"%i",id_fi1); //passem l'identificador de la zona de memoria compartida a un string
+      //fem el mateix per fi2
+          char str_fi2[20];
+          int id_fi2 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
+          int *p_fi2 = map_mem(id_fi2); //fem el mapeig de la zona de memoria compartida
+          //*p_fi2 = fi2; //inicialitzem la zona de memoria compartida
+          sprintf(str_fi2,"%i",id_fi2); //passem l'identificador de la zona de memoria compartida a un string
+          // fem el mateix per df
+          char str_df[20];
+          int id_df = ini_mem(sizeof(int)*4); //creem la zona de memoria compartida
+          int *p_df = map_mem(id_df); //fem el mapeig de la zona de memoria compartida
+          p_df[0] = df[0]; //inicialitzem la zona de memoria compartida
+          p_df[1] = df[1]; //inicialitzem la zona de memoria compartida
+          p_df[2] = df[2]; //inicialitzem la zona de memoria compartida
+          p_df[3] = df[3]; //inicialitzem la zona de memoria compartida
+          sprintf(str_df,"%i",id_df); //passem l'identificador de la zona de memoria compartida a un string
+          //fem el mateix per dc
+          char str_dc[20];
+          int id_dc = ini_mem(sizeof(int)*4); //creem la zona de memoria compartida
+          int *p_dc = map_mem(id_dc); //fem el mapeig de la zona de memoria compartida
+          p_dc[0] = dc[0]; //inicialitzem la zona de memoria compartida
+          p_dc[1] = dc[1]; //inicialitzem la zona de memoria compartida
+          p_dc[2] = dc[2]; //inicialitzem la zona de memoria compartida
+          p_dc[3] = dc[3]; //inicialitzem la zona de memoria compartida
+          sprintf(str_dc,"%i",id_dc); //passem l'identificador de la zona de memoria compartida a un string
+          //creem zona de memoria compartida per fantsmes
+          char str_fantasmes[20];
+          int id_fantasmes = ini_mem(sizeof(objecte)*n_fantasmes); //creem la zona de memoria compartida
+          objecte *p_fantasmes = map_mem(id_fantasmes); //fem el mapeig de la zona de memoria compartida
+          for(i = 0; i < n_fantasmes; i++){
+              p_fantasmes[i] = fantasmes[i]; //inicialitzem la zona de memoria compartida
+          }
+          sprintf(str_fantasmes,"%i",id_fantasmes); //passem l'identificador de la zona de memoria compartida a un string
+          //fem el mateix amb mc
+          char str_mc[20];
+          int id_mc = ini_mem(sizeof(objecte)); //creem la zona de memoria compartida
+          objecte *p_mc = map_mem(id_mc); //fem el mapeig de la zona de memoria compartida
+          *p_mc = mc; //inicialitzem la zona de memoria compartida
+          sprintf(str_mc,"%i",id_mc); //passem l'identificador de la zona de memoria compartida a un string
+          //fem el mateix d'abans amb la variable retard
+          char str_retard[20];
+          int id_retard = ini_mem(sizeof(int)); //creem la zona de memoria compartida
+          int *p_retard = map_mem(id_retard); //fem el mapeig de la zona de memoria compartida
+          *p_retard = retard; //inicialitzem la zona de memoria compartida
+          sprintf(str_retard,"%i",id_retard); //passem l'identificador de la zona de memoria compartida a un string
+          //fem el mateix d'abans amb la variable retard
+          if(pthread_create(&coco,NULL,mou_menjacocos,NULL)!=0){
+              fprintf(stderr,"Error al crear el thread del menjacocos\n");
+              exit(1);
+          }
+          int n = 0;
+          char id_proces[20];
+          //inicialitza_joc();
+          fprintf(stderr,"\nhi han %d fantasmes\n",n_fantasmes);
+          for(i = 0; i < n_fantasmes; i++){
+              tpid[n] = fork();
+              if(tpid[n] == (pid_t) 0){
+                  sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
+                  if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,(char *)0)==-1){
+                      fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
+                      exit(0);
+                  }
+              }else if(tpid[n] >0){
+                  n++; //incrementem el numero de threads creats si és el pare
+              }else{
+                  fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
+                  exit(0);
+              }
+          }
+          ultim_fantasma_creat++;
         }
-        sprintf(str_fantasmes,"%i",id_fantasmes); //passem l'identificador de la zona de memoria compartida a un string
-        //fem el mateix amb mc
-        char str_mc[20];
-        int id_mc = ini_mem(sizeof(objecte)); //creem la zona de memoria compartida
-        objecte *p_mc = map_mem(id_mc); //fem el mapeig de la zona de memoria compartida
-        *p_mc = mc; //inicialitzem la zona de memoria compartida
-        sprintf(str_mc,"%i",id_mc); //passem l'identificador de la zona de memoria compartida a un string
-        //fem el mateix d'abans amb la variable retard
-        char str_retard[20];
-        int id_retard = ini_mem(sizeof(int)); //creem la zona de memoria compartida
-        int *p_retard = map_mem(id_retard); //fem el mapeig de la zona de memoria compartida
-        *p_retard = retard; //inicialitzem la zona de memoria compartida
-        sprintf(str_retard,"%i",id_retard); //passem l'identificador de la zona de memoria compartida a un string
-        //fem el mateix d'abans amb la variable retard
-        if(pthread_create(&coco,NULL,mou_menjacocos,NULL)!=0){
-            fprintf(stderr,"Error al crear el thread del menjacocos\n");
-            exit(1);
-        }
-        int n = 0;
-        char id_proces[20];
-         //inicialitza_joc();
-        fprintf(stderr,"\nhi han %d fantasmes\n",n_fantasmes);
-        for(i = 0; i < n_fantasmes; i++){
-            tpid[n] = fork();
-            if(tpid[n] == (pid_t) 0){
-                sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
-                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,(char *)0)==-1){
-                    fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
-                    exit(0);
-                }
-            }else if(tpid[n] >0){
-                n++; //incrementem el numero de threads creats si és el pare
-            }else{
-                fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
-                exit(0);
-            }
-        }
-         //inicialitza_joc();
-        /*
-        * FI CREACIÓ THREAD I PROCESSOS
-        */
 }
 /* programa principal				    */
 int main(int n_args, const char *ll_args[])
@@ -478,7 +470,7 @@ int main(int n_args, const char *ll_args[])
           //Si ha xocat 2 cops hem de crear un nou fantasma
           if(xocs == 2){
             xocs = 0;
-            crear_fantasma(); //TODO Programar :)
+            crear_fantasma();
           }
 
           win_update();
