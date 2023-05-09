@@ -24,6 +24,7 @@
     int *fi1_p, *fi2_p;
     int fi1, fi2;
     objecte *mc;      		/* informacio del menjacocos */
+   
     int *retard;
  int main(int n_args, char *ll_args[]){
 
@@ -81,7 +82,7 @@
     objecte seg;
     int ret;
     int k, vk, nd, vd[3];
-    
+    int 
     ret = 0; 
     int z=0;
     do{
@@ -91,40 +92,40 @@
     	
         fprintf(stderr,"entra a fantasma per %d cop\n", z);
         nd = 0; //numero de direccions disponibles
-        if(mode_normal){
-            for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
-            {
-                vk = (f1.d + k) % 4;		/* direccio veina */
-                if (vk < 0) vk += 4;		/* corregeix negatius */
+        
+        for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
+        {
+            vk = (f1.d + k) % 4;		/* direccio veina */
+            if (vk < 0) vk += 4;		/* corregeix negatius */
 
-                seg.f = f1.f + df[vk]; /* calcular posicio en la nova dir.*/
-                fprintf(stderr,"CAracteristiques exec fantasma:\t seg.f: %d f1.f: %d df[vk]: %d vk: %d\n", seg.f, f1.f, df[vk], vk);
-                seg.c = f1.c + dc[vk];
-                fprintf(stderr,"CAracteristiques exec fantasma:\t seg.c: %d f1.c: %d dc[vk]: %d vk: %d\n", seg.c, f1.c, dc[vk], vk);
-                seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
-                fprintf(stderr,"CAracteristiques exec fantasma:\t seg.a: %c \n", seg.a);
-                if ((seg.a==' ') || (seg.a=='.') || (seg.a=='0'))
-                { 
-                
-                    vd[nd] = vk;			/* memoritza com a direccio possible */
-                    nd++;
+            seg.f = f1.f + df[vk]; /* calcular posicio en la nova dir.*/
+            seg.c = f1.c + dc[vk];
+            seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
+            if ((seg.a==' ') || (seg.a=='.') || (seg.a=='0') || !mode_normal) //si está disponible o no estem en mode normal
+            { 
+            
+                vd[nd] = vk;			/* memoritza com a direccio possible */
+                if(!mode_normal){
+                    //treiem distancia entre el fantasma i el comecocos, la guardem en una taula
+                    
                 }
+                nd++;
             }
-        }else{
-            //TODO
-            //Els fantasmes es podran desplaçar directament cap al menjacocos travessant les parets del laberint.
-
         }
+        
         
         if (nd == 0){			/* si no pot continuar, */
             f1.d = (f1.d + 2) % 4;		/* canvia totalment de sentit */
         }else
         { 
+            
             if (nd == 1){			/* si nomes pot en una direccio */
                 f1.d = vd[0];			/* li assigna aquesta */
             }
-            else{				/* altrament */
+            else if(mode_normal){				/* altrament */
                 f1.d = vd[rand() % nd];		/* segueix una dir. aleatoria */
+            }else{
+                //hem de mirar totes les direccions quina está més a prop del fantasma
             }
             seg.f = f1.f + df[f1.d];  /* calcular seguent posicio final */
             seg.c = f1.c + dc[f1.d];
