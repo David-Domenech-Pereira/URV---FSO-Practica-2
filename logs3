@@ -12,7 +12,6 @@ cocos = 41
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques del fantasma:	 fila: 5 col: 7 dir: 3 car: .
 Fantasma 0 creatCAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-cocos = 40
 entra a fantasma per 1 cop
 CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 2
@@ -26,9 +25,8 @@ CAracteristiques exec fantasma:	 seg.a: +
 CAracteristiques del fantasma:	 fila: 5 col: 7 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 40
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 2 cop
 CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
@@ -43,8 +41,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 8 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 3 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
@@ -59,8 +55,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 8 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 4 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
@@ -75,8 +69,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 5 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
@@ -91,8 +83,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 6 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 9 dc[vk]: 1 vk: 3
@@ -107,8 +97,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 7 cop
 CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
@@ -123,8 +111,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 8 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
@@ -139,8 +125,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 9 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
@@ -155,8 +139,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 10 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 2
@@ -171,8 +153,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 10 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 11 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 10 dc[vk]: -1 vk: 1
@@ -187,8 +167,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 10 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 12 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 2
@@ -202,9 +180,8 @@ CAracteristiques exec fantasma:	 seg.a: .
 CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 39
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 13 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
@@ -218,10 +195,8 @@ CAracteristiques exec fantasma:	 seg.a: +
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 38
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 39
 entra a fantasma per 14 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 13 f1.c: 13 dc[vk]: 0 vk: 2
@@ -235,10 +210,8 @@ CAracteristiques exec fantasma:	 seg.a: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 37
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-cocos = 38
-
-main fi1=0 fi2=0
 entra a fantasma per 15 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -251,9 +224,6 @@ CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 37
 entra a fantasma per 16 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -268,8 +238,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 17 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -284,8 +252,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 18 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 0
@@ -300,8 +266,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 19 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 0
@@ -316,8 +280,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 20 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 11 dc[vk]: -1 vk: 1
@@ -332,8 +294,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 21 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
@@ -348,8 +308,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 9 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 22 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
@@ -364,9 +322,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 9 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 36
 entra a fantasma per 23 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
@@ -381,9 +336,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 7 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 35
 entra a fantasma per 24 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 0
@@ -396,8 +348,6 @@ CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 25 cop
 CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 2
@@ -412,8 +362,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 7 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 26 cop
 CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
@@ -428,8 +376,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 9 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 27 cop
 CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
@@ -444,8 +390,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 9 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 28 cop
 CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 2
@@ -459,10 +403,9 @@ CAracteristiques exec fantasma:	 seg.a: .
 CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 36
+cocos = 35
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-cocos = 34
-
-main fi1=0 fi2=0
 entra a fantasma per 29 cop
 CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 2
@@ -477,9 +420,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-cocos = 33
-
-main fi1=0 fi2=0
 entra a fantasma per 30 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 11 dc[vk]: 1 vk: 3
@@ -494,8 +434,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 31 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
@@ -510,8 +448,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 32 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 13 f1.c: 13 dc[vk]: 0 vk: 2
@@ -526,8 +462,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 33 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -540,8 +474,6 @@ CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 34 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -556,8 +488,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 35 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -572,9 +502,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 32
 entra a fantasma per 36 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -589,8 +516,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 37 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -605,8 +530,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 38 cop
 CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -621,8 +544,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 12 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 39 cop
 CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 0
@@ -635,8 +556,6 @@ CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 40 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
@@ -651,9 +570,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 12 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 31
 entra a fantasma per 41 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 13 f1.c: 13 dc[vk]: 0 vk: 2
@@ -668,9 +584,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 30
 entra a fantasma per 42 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -685,9 +598,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 29
 entra a fantasma per 43 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -702,8 +612,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 44 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -718,8 +626,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 45 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -732,8 +638,6 @@ CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 46 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -748,8 +652,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 47 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -764,9 +666,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 28
 entra a fantasma per 48 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -781,8 +680,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 49 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -797,8 +694,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 50 cop
 CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -813,9 +708,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 12 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 27
 entra a fantasma per 51 cop
 CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 0
@@ -828,9 +720,6 @@ CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 26
 entra a fantasma per 52 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
@@ -845,8 +734,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 12 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 53 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 13 f1.c: 13 dc[vk]: 0 vk: 2
@@ -861,8 +748,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 54 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -877,8 +762,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 55 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -893,9 +776,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 25
 entra a fantasma per 56 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -910,8 +790,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 57 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -924,9 +802,6 @@ CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 24
 entra a fantasma per 58 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -940,10 +815,8 @@ CAracteristiques exec fantasma:	 seg.a: +
 CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 34
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 23
 entra a fantasma per 59 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -957,9 +830,8 @@ CAracteristiques exec fantasma:	 seg.a: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 33
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 60 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 0
@@ -973,13 +845,12 @@ CAracteristiques exec fantasma:	 seg.a: +
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 32
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 61 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 0
-CAracteristiques exec fantasma:	 seg.a: 0 
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 11 dc[vk]: -1 vk: 1
 CAracteristiques exec fantasma:	 seg.a: . 
@@ -990,8 +861,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 62 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 11 dc[vk]: -1 vk: 1
@@ -1006,9 +875,6 @@ CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 22
 entra a fantasma per 63 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
@@ -1023,41 +889,34 @@ CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 10 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
-cocos = 21
 entra a fantasma per 64 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 10 dc[vk]: 1 vk: 3
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 10 dc[vk]: -1 vk: 1
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques del fantasma:	 fila: 4 col: 10 dir: 3 car: .
-CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 65 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 2
-CAracteristiques exec fantasma:	 seg.a: 0 
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 11 dc[vk]: 1 vk: 3
 CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 0
-CAracteristiques exec fantasma:	 seg.a:   
-CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 3 car:  
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 66 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
@@ -1072,8 +931,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 67 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 13 f1.c: 13 dc[vk]: 0 vk: 2
@@ -1088,8 +945,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 68 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -1104,8 +959,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 69 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -1120,8 +973,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 70 cop
 CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -1136,8 +987,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 12 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 71 cop
 CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 0
@@ -1150,8 +999,6 @@ CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 72 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
@@ -1166,8 +1013,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 12 dir: 3 car: .
 CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 73 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 13 f1.c: 13 dc[vk]: 0 vk: 2
@@ -1182,8 +1027,6 @@ CAracteristiques del fantasma:	 fila: 1 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 74 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -1198,8 +1041,6 @@ CAracteristiques del fantasma:	 fila: 2 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 75 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -1214,8 +1055,6 @@ CAracteristiques del fantasma:	 fila: 3 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 76 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -1230,8 +1069,6 @@ CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 77 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 13 dc[vk]: -1 vk: 1
@@ -1244,8 +1081,6 @@ CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 78 cop
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -1259,9 +1094,8 @@ CAracteristiques exec fantasma:	 seg.a: +
 CAracteristiques del fantasma:	 fila: 5 col: 13 dir: 0 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 31
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 79 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 14 f1.c: 13 dc[vk]: 1 vk: 3
@@ -1275,41 +1109,38 @@ CAracteristiques exec fantasma:	 seg.a: .
 CAracteristiques del fantasma:	 fila: 4 col: 13 dir: 1 car: .
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 30
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 80 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 0
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 12 dc[vk]: -1 vk: 1
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 12 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques del fantasma:	 fila: 4 col: 12 dir: 1 car: .
-CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 1 car:  
+CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 29
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 81 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 0
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 11 dc[vk]: -1 vk: 1
 CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 2
-CAracteristiques exec fantasma:	 seg.a: 0 
-CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 0 car:  
-CAracteristiques del fantasma:	 fila: 3 col: 11 dir: 0 car:  
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 0 car: .
+CAracteristiques del fantasma:	 fila: 3 col: 11 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 28
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 82 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 11 dc[vk]: 1 vk: 3
@@ -1319,45 +1150,40 @@ CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 0
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 11 dc[vk]: -1 vk: 1
-CAracteristiques exec fantasma:	 seg.a:   
-CAracteristiques del fantasma:	 fila: 3 col: 11 dir: 1 car:  
-CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 1 car:  
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 3 col: 11 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 27
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 83 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 3 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 10 dc[vk]: -1 vk: 1
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: . 
-CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 1 car:  
-CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 1 car:  
+CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 84 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 3 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 9 dc[vk]: -1 vk: 1
 CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: + 
-CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 0 car:  
-CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 0 car:  
+CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 0 car: .
+CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 0 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 85 cop
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 9 dc[vk]: 1 vk: 3
@@ -1367,29 +1193,27 @@ CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
 CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 9 dc[vk]: -1 vk: 1
-CAracteristiques exec fantasma:	 seg.a:   
-CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 1 car:  
-CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 1 car:  
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 1 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 26
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 86 cop
 CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: . 
-CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 2 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 2 car: .
 CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 2 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 25
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 87 cop
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
 CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
@@ -1399,43 +1223,442 @@ CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 3 car: .
-CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 88 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: + 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 9 dc[vk]: 1 vk: 3
-CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 3 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
-CAracteristiques exec fantasma:	 seg.a:   
-CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car:  
-CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 3 car:  
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car: .
+CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 3 car: .
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 24
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
-
-main fi1=0 fi2=0
 entra a fantasma per 89 cop
 CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 2
 CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
 CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 10 dc[vk]: 1 vk: 3
-CAracteristiques exec fantasma:	 seg.a: 0 
+CAracteristiques exec fantasma:	 seg.a: . 
 CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 3 df[vk]: -1 vk: 0
 CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
 CAracteristiques exec fantasma:	 seg.a: + 
-CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 3 car:  
-CAracteristiques del fantasma:	 fila: 3 col: 11 dir: 3 car: 0
+CAracteristiques del fantasma:	 fila: 3 col: 10 dir: 3 car: .
+CAracteristiques del fantasma:	 fila: 3 col: 11 dir: 3 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 90 cop
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 11 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 3 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 3 col: 11 dir: 2 car: .
+CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 2 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 91 cop
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 11 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 4 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 11 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 4 col: 11 dir: 2 car: .
+CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 2 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 23
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 92 cop
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 11 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 11 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 12 f1.c: 11 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 5 col: 11 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 1 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 93 cop
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 10 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 5 col: 10 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 5 col: 9 dir: 1 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 94 cop
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 9 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 5 col: 9 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 1 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 22
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 95 cop
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 5 col: 7 dir: 1 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 21
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 96 cop
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 7 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 97 cop
+CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 7 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 5 col: 7 dir: 3 car: .
+CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 3 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 98 cop
+CAracteristiques exec fantasma:	 seg.f: 6 f1.f: 5 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 5 f1.f: 5 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 5 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 5 col: 8 dir: 0 car: .
+CAracteristiques del fantasma:	 fila: 4 col: 8 dir: 0 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 99 cop
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 4 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 4 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 4 col: 8 dir: 0 car: .
+CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 0 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 100 cop
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 3 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 0 car: .
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 0 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 20
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 101 cop
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 3 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 102 cop
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: 0 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 9 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 0 car:  
+CAracteristiques del fantasma:	 fila: 1 col: 9 dir: 0 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 103 cop
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 9 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 9 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 1 col: 9 dir: 3 car: .
+CAracteristiques del fantasma:	 fila: 1 col: 10 dir: 3 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 104 cop
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 11 f1.c: 10 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 105 cop
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 10 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 10 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 1 col: 10 dir: 1 car: .
+CAracteristiques del fantasma:	 fila: 1 col: 9 dir: 1 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 106 cop
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 9 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques del fantasma:	 fila: 1 col: 9 dir: 2 car: .
+CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 2 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 107 cop
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 9 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 9 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: 0 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 10 f1.c: 9 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 2 col: 9 dir: 1 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 1 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 108 cop
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 1 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 7 dir: 1 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 109 cop
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 7 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 2 col: 7 dir: 1 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 6 dir: 1 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+cocos = 19
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 110 cop
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 6 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 5 f1.c: 6 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 6 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques del fantasma:	 fila: 2 col: 6 dir: 0 car:  
+CAracteristiques del fantasma:	 fila: 1 col: 6 dir: 0 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 111 cop
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 6 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 6 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 5 f1.c: 6 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques del fantasma:	 fila: 1 col: 6 dir: 1 car:  
+CAracteristiques del fantasma:	 fila: 1 col: 5 dir: 1 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 112 cop
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 5 f1.c: 5 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 4 f1.c: 5 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 5 f1.c: 5 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 113 cop
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 5 f1.c: 5 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 5 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 5 f1.c: 5 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 1 col: 5 dir: 3 car: .
+CAracteristiques del fantasma:	 fila: 1 col: 6 dir: 3 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 114 cop
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 1 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 6 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 1 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 6 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 0 f1.f: 1 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 6 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 1 col: 6 dir: 2 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 6 dir: 2 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 115 cop
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 5 f1.c: 6 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 6 f1.c: 6 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 6 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques del fantasma:	 fila: 2 col: 6 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 7 dir: 3 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 116 cop
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 7 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 7 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a:   
+CAracteristiques del fantasma:	 fila: 2 col: 7 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 3 car:  
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 117 cop
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 2 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 2 f1.f: 2 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: 0 
+CAracteristiques exec fantasma:	 seg.f: 1 f1.f: 2 df[vk]: -1 vk: 0
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 0
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques del fantasma:	 fila: 2 col: 8 dir: 2 car:  
+CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 2 car: .
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+entra a fantasma per 118 cop
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 1
+CAracteristiques exec fantasma:	 seg.c: 7 f1.c: 8 dc[vk]: -1 vk: 1
+CAracteristiques exec fantasma:	 seg.a: + 
+CAracteristiques exec fantasma:	 seg.f: 4 f1.f: 3 df[vk]: 1 vk: 2
+CAracteristiques exec fantasma:	 seg.c: 8 f1.c: 8 dc[vk]: 0 vk: 2
+CAracteristiques exec fantasma:	 seg.a: . 
+CAracteristiques exec fantasma:	 seg.f: 3 f1.f: 3 df[vk]: 0 vk: 3
+CAracteristiques exec fantasma:	 seg.c: 9 f1.c: 8 dc[vk]: 1 vk: 3
+CAracteristiques exec fantasma:	 seg.a: 0 
+CAracteristiques del fantasma:	 fila: 3 col: 8 dir: 3 car: .
+CAracteristiques del fantasma:	 fila: 3 col: 9 dir: 3 car: 0
 Fantasma 0 capturat
 CAracteristiques exec fantasma:	 fi1: 0 fi2: 1 
-
-main fi1=0 fi2=1
-arriba

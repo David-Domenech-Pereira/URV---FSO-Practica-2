@@ -1,3 +1,10 @@
+ /**
+* @file fantasmes3.c
+* @brief Programa que implementa el comportament dels fantasmes, sent fils del programa principal
+* @author Assmaa Ouladali i David Domènech
+*
+ */
+ 
  #include <stdio.h>
  #include "memoria.h"
  #include "winsuport2.h"		/* incloure definicions de funcions propies */
@@ -34,10 +41,10 @@
     //df = map_mem(id_df);
     //dc = map_mem(id_dc);
     
-    int i = atoi(ll_args[5]);
-    int id_f = atoi(ll_args[6]); //posicio memoria compartida fantasmes
-    int id_mc = atoi(ll_args[7]); //la variable mc
-    int id_retard = atoi(ll_args[8]);
+    int i = atoi(ll_args[3]);
+    int id_f = atoi(ll_args[4]); //posicio memoria compartida fantasmes
+    int id_mc = atoi(ll_args[5]); //la variable mc
+    int id_retard = atoi(ll_args[6]);
     //int id_win = atoi(ll_args[9]);
     //int fil = atoi(ll_args[10]);
     //int col = atoi(ll_args[11]);
@@ -59,14 +66,14 @@
         fprintf(stderr,"Fantasma %d creat",i);
     }
     
-    int id_win = atoi(ll_args[9]);
+    int id_win = atoi(ll_args[7]);
     p_win = map_mem(id_win);
-    if (*p_win == -1)
+    if (p_win == (int *)-1)
     {   fprintf(stderr,"proces (%d): error en identificador de finestra\n",(int)getpid());
         exit(0);
     }
-    int n_fil = atoi(ll_args[10]);		/* obtenir dimensions del camp de joc */
-    int n_col = atoi(ll_args[11]);
+    int n_fil = atoi(ll_args[8]);		/* obtenir dimensions del camp de joc */
+    int n_col = atoi(ll_args[9]);
 
     //win_set((void *)id_win,n_fil,n_col);	/* crea acces a finestra oberta pel proces pare */
     win_set(p_win,n_fil,n_col);
@@ -81,7 +88,7 @@
     z++;
      fprintf(stderr,"CAracteristiques exec fantasma:\t fi1: %d fi2: %d \n", fi1, fi2);
     	//win_update();
-    	win_retard(100);
+    	
         fprintf(stderr,"entra a fantasma per %d cop\n", z);
         nd = 0; //numero de direccions disponibles
         for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
@@ -133,7 +140,7 @@
         *fi2_p=ret;
         fprintf(stderr,"CAracteristiques exec fantasma:\t fi1: %d fi2: %d \n", (*fi1_p), (*fi2_p));
         
-        //win_retard((mc->r)* (int) retard);
+        win_retard((mc->r)* (int) *retard);
           
     }while (!(*fi1_p) && !(*fi2_p));//!fi1 && !fi2)
    

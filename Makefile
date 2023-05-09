@@ -10,8 +10,8 @@ cocos2 : cocos2.c winsuport.o winsuport.h
 	gcc -Wall cocos2.c winsuport.o -o cocos2 -lcurses -lpthread
 
 cocos3 : cocos3.c memoria.o missatge.o winsuport2.o winsuport2.h fantasmes3.c
-	gcc -Wall cocos3.c memoria.o missatge.o winsuport2.o -o cocos3 -lcurses -lpthread
-	gcc -Wall fantasmes3.c memoria.o missatge.o winsuport2.o -o fantasmes3 -lcurses
+	gcc -w cocos3.c memoria.o missatge.o winsuport2.o -o cocos3 -lcurses -lpthread
+	gcc -w fantasmes3.c memoria.o missatge.o winsuport2.o -o fantasmes3 -lcurses
 
 memoria.o : memoria.c memoria.h
 	gcc -c -Wall memoria.c -o memoria.o 
