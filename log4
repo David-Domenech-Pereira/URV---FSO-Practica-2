@@ -1,0 +1,416 @@
+
+Ha carregat el tauler
+'
+Fantasma 0: Fila 6 i Columna 13
+El valor del numero de fantasmes és 1
+n_files = 14, n_cols = 39n_files = 14, n_cols = 39lab2
+AL peincipi hi han cocos = 130
+Ara passen a cocos = 130
+joc inicialitzat okMain - Esperem al semafor 38
+cocos = 129
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+cocos = 128
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+cocos = 127
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+cocos = 126
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+cocos = 125
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Creant fantasma 0
+
+hi han 1 fantasmes
+Main - Esperem al semafor 38
+Fantasma 0 inici - Semafor 38 VERD
+Argument 0: fantasmes4
+Argument 1: 131692
+Argument 2: 131693
+Argument 3: 0
+Argument 4: 131696
+Argument 5: 131697
+Argument 6: 131698
+Argument 7: 131691
+Argument 8: 14
+Argument 9: 39
+Argument 10: 60
+Argument 11: 1
+Argument 12: 38
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 creat
+Posició menjacocos: 6 26
+NORMAL = 1
+NORMAL = 1 - Direcció 3
+NORMAL = 1
+CAracteristiques del fantasma:	 fila: 6 col: 13 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 14 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Thread bustia creat, id = 60Menjacocos - Semafor 38 VERD
+RECIEVE => Mode normal: 0
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Thread bustia creat, id = 0Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,14)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,15)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,14)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 14 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 15 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Main - Semafor 38 VERD
+RECIEVE => Mode normal: 0
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,15)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,16)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,15)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 15 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 16 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Main - Semafor 38 VERD
+RECIEVE => Mode normal: 0
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,16)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,17)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,16)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 16 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 17 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+RECIEVE => Mode normal: 0
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,17)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,18)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,17)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 17 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 18 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+RECIEVE => Mode normal: 0
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,18)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,19)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,18)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 18 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 19 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Main - Semafor 38 VERD
+RECIEVE => Mode normal: 0
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,19)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,20)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,19)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 19 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 20 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Main - Semafor 38 VERD
+RECIEVE => Mode normal: 0
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,20)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,21)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,20)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 20 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 21 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Main - Semafor 38 VERD
+RECIEVE => Mode normal: 0
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,21)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,22)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,21)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 21 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 22 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Main - Semafor 38 VERD
+RECIEVE => Mode normal: 0
+Main - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,22)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,23)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,22)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 22 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 23 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+RECIEVE => Mode normal: 0
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,23)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,24)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,23)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 23 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 24 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+RECIEVE => Mode normal: 0
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,24)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,25)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,24)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 24 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 25 dir: 3 car:  
+Activant mode cacera, menjacocos a la pos 6, 26
+SEND => Mode normal: 0
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+RECIEVE => Mode normal: 0
+Main - Semafor 38 VERD
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+Moviment fila = 1, columna = 0 a les posicions (7,25)
+Posició menjacocos: 6 26
+CACERA -> Direcció 2, distancia 0
+Moviment fila = 0, columna = 1 a les posicions (6,26)
+Posició menjacocos: 6 26
+CACERA -> Direcció 3, distancia 1
+Moviment fila = -1, columna = 0 a les posicions (5,25)
+Posició menjacocos: 6 26
+CACERA -> Direcció 0, distancia 0
+direccio triada: 3
+CAracteristiques del fantasma:	 fila: 6 col: 25 dir: 3 car:  
+CAracteristiques del fantasma:	 fila: 6 col: 26 dir: 3 car:  
+Desactivant mode cacera, menjacocos a la pos 6, 27
+SEND => Mode normal: 1
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 - Esperem al semafor 38
+RECIEVE => Mode normal: 1
+Main - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+Posició menjacocos: 6 26
+NORMAL = 1 - Direcció 2
+NORMAL = 1
+NORMAL = 1 - Direcció 0
+CAracteristiques del fantasma:	 fila: 6 col: 26 dir: 0 car:  
+CAracteristiques del fantasma:	 fila: 5 col: 26 dir: 0 car: 0
+Fantasma 0 capturat
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 1 
+Fantasma 0 - Esperem al semafor 38
+Menjacocos - Semafor 38 VERD
+Menjacocos - Esperem al semafor 38
+Main - Semafor 38 VERD
+Main - Esperem al semafor 38
+Fantasma 0 - Semafor 38 VERD
+FI Fantasma 0Menjacocos - Semafor 38 VERD
+Main - Semafor 38 VERD
