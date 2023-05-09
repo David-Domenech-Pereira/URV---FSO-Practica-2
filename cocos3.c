@@ -1,7 +1,7 @@
 /**
 * @file cocos3.c
-* @brief Codi que controla el moviment d'un joc menjacocos sense sincronització 
-* @author Assmaa Ouladali i David Domènech
+* @brief Codi que controla el moviment d'un joc menjacocos sense sincronitzaciÃ³ 
+* @author Assmaa Ouladali i David DomÃ¨nech
 */
 /*****************************************************************************/
 /*									                                         */
@@ -167,8 +167,8 @@ void carrega_parametres(const char *nom_fit)
   int i = 0;
   while(!feof(fit)){
   	fscanf(fit,"%d %d %d %f\n",&fantasmes[i].f,&fantasmes[i].c,&fantasmes[i].d,&fantasmes[i].r);
-
-
+  	
+  	
 	  if ((fantasmes[i].f < 1) || (fantasmes[i].f > n_fil1-3) ||
 		(fantasmes[i].c < 1) || (fantasmes[i].c > n_col-2) ||
 		(fantasmes[i].d < 0) || (fantasmes[i].d > 3))
@@ -182,14 +182,14 @@ void carrega_parametres(const char *nom_fit)
 	    }else{
 	    	fprintf(stderr,"Fantasma %d: Fila %d i Columna %d\n",i,fantasmes[i].f,fantasmes[i].c);
 	    }
-
+	    
 	    i++;
 	}
-
-
+  	
+  
   n_fantasmes = i;
-  fprintf(stderr,"El valor del numero de fantasmes és %d\n",i);
-
+  fprintf(stderr,"El valor del numero de fantasmes Ã©s %d\n",i);
+  
   fclose(fit);			/* fitxer carregat: tot OK! */
   printf("Joc del MenjaCocos\n\tTecles: \'%c\', \'%c\', \'%c\', \'%c\', RETURN-> sortir\n",
 		TEC_AMUNT, TEC_AVALL, TEC_DRETA, TEC_ESQUER);
@@ -211,10 +211,10 @@ void * mou_menjacocos(void * null)
   char strin[12];
   objecte seg;
   int tec, ret;
-
+  
   ret = 0;
   do{
-
+  
     tec = win_gettec();
     //win_update();
   if (tec != 0)
@@ -226,16 +226,16 @@ void * mou_menjacocos(void * null)
     case TEC_DRETA:	  mc.d = 3; break;
     case TEC_RETURN:  ret = -1; break;
    }
-
+ 
     seg.f = mc.f + df[mc.d];	/* calcular seguent posicio */
     seg.c = mc.c + dc[mc.d];
-
+  
     seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
-
+    
 
   if ((seg.a == ' ') || (seg.a == '.'))
   {
-
+   
       win_escricar(mc.f,mc.c,' ',NO_INV);		/* esborra posicio anterior */
       mc.f = seg.f; mc.c = seg.c;			/* actualitza posicio */
       win_escricar(mc.f,mc.c,'0',NO_INV);		/* redibuixa menjacocos */
@@ -247,12 +247,12 @@ void * mou_menjacocos(void * null)
         //sprintf(strin,"Fanta: %d",n_fantasmes); win_escristr(strin);
         if (cocos == 0) ret = 1;
       }
-
+    
   }
-
+  
     fi1=ret;
-
-
+    
+  
   win_retard(mc.r*retard);
   }while(!fi1 && !fi2);
 
@@ -271,56 +271,58 @@ void inicialitza_joc(void)
   for(int i=0;i<4;i++){
   	fprintf(stderr,"%c", tauler[i]);
   }
-
+    	
   r = win_carregatauler(tauler,n_fil1-1,n_col,c_req);
-
+  
   if (r == 0)
   {
-
+  
 	    mc.a = win_quincar(mc.f,mc.c);
-
+	    
 	    if (mc.a == c_req) r = -6;		/* error: menjacocos sobre pared */
 	    else
 	    {
-
+	     
 	      for(int i = 0; i < n_fantasmes; i++){
-
+            
 		       fantasmes[i].a = win_quincar(fantasmes[i].f,fantasmes[i].c);
-
+           
 		       if (fantasmes[i].a == c_req){
 		        r = -7;	/* error: fantasma sobre pared */
 		        ex_code = i;
 		        }
-
-		        win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);		       
-
+            
+		        win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);
+           
+		       
+           
 	      }
 	    }
-
+    
   }
   if(r ==0){
     cocos = 0;			/* compta el numero total de cocos */
     for (i=0; i<n_fil1-1; i++)
       for (j=0; j<n_col; j++){
-
+      
         if (win_quincar(i,j)=='.') cocos++;
-
+        
       }
       fprintf(stderr,"\nAL peincipi hi han cocos = %d\n",cocos);
 
-
+    
     win_escricar(mc.f,mc.c,'0',NO_INV); 
+    
 
-
-
+  
     if (mc.a == '.') cocos--;	/* menja primer coco */
     fprintf(stderr,"Ara passen a cocos = %d\n",cocos);
-
+    
 
     sprintf(strin,"Cocos: %d", cocos); 
-
+    
     win_escristr(strin);
-
+   
   }
   if (r < 0)
   {	win_fi();
@@ -344,12 +346,12 @@ void actualitza_pantalla(){
   win_carregatauler(tauler,n_fil1-1,n_col,c_req);
   for (int i=0; i<n_fil1-1; i++)
       for (int j=0; j<n_col; j++){
-
+      
         if (win_quincar(i,j)=='.') cocos++;
-
+        
       }
 
-
+    
   for(int i = 0; i < n_fantasmes; i++){
     win_escricar(fantasmes[i].f,fantasmes[i].c,(char) ('1'+i),NO_INV);
   }
@@ -361,32 +363,32 @@ void actualitza_pantalla(){
 int main(int n_args, const char *ll_args[])
 {
     int  rc;		/* variables locals */
-
+    
      void *p_win;
        char str_win[20],str_n_fil[10],str_n_col[10];
        //int n_fil, n_col;
     srand(getpid());		/* inicialitza numeros aleatoris */
 
-
+    
 
     if ((n_args != 2) && (n_args !=3))
     {	fprintf(stderr,"Comanda: cocos0 fit_param [retard]\n");
         exit(1);
     }
     carrega_parametres(ll_args[1]);
-
+    
     //fprintf(stderr,"Fantasma %d: Fila %d i Columna %d\n",1,fantasmes[1].f,fantasmes[1].c);
     if (n_args == 3) retard = atoi(ll_args[2]);
     else retard = 100;
     //inicialitza_joc();
     fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col); 
      rc = win_ini(&n_fil1,&n_col,'+',INVERS);	/* intenta crear taulell */
-
+     
     if (rc >= 0)		/* si aconsegueix accedir a l'entorn CURSES */
     {
         int id_win = ini_mem(rc);	/* crear zona mem. compartida */
         p_win = map_mem(id_win);	/* obtenir adres. de mem. compartida */
-
+        
         sprintf(str_win,"%i",id_win);
         sprintf(str_n_fil,"%i",n_fil1);	/* convertir mides camp en string */
         sprintf(str_n_col,"%i",n_col);
@@ -395,12 +397,12 @@ int main(int n_args, const char *ll_args[])
          fprintf(stderr,"n_files = %d, n_cols = %d",n_fil1, n_col);
         inicialitza_joc();
           //win_set(p_win,n_fil1,n_col);	
-
+        
          /**
          * CREEM THREAD I PROCESSOS
          */
         int i;
-
+    	
         char str_fi1[20];
         int id_fi1 = ini_mem(sizeof(int)); //creem la zona de memoria compartida
         int *p_fi1 = map_mem(id_fi1); //fem el mapeig de la zona de memoria compartida
@@ -450,16 +452,6 @@ int main(int n_args, const char *ll_args[])
         int *p_retard = map_mem(id_retard); //fem el mapeig de la zona de memoria compartida
         *p_retard = retard; //inicialitzem la zona de memoria compartida
         sprintf(str_retard,"%i",id_retard); //passem l'identificador de la zona de memoria compartida a un string
-
-        char str_fantasma_trobat[10];
-        int id_fantasma_trobat=ini_mem(sizeof(int)); 
-        int *p_fantasma_trobat= map_mem(id_fantasma_trobat);
-        sprintf(str_fantasma_trobat,"%i",id_fantasma_trobat); 
-        char str_mode_normal[10];
-        int id_mode_normal=ini_mem(sizeof(int)); 
-        int *p_mode_normal= map_mem(id_mode_normal);
-        sprintf(str_mode_normal,"%i",id_mode_normal); 
-
         //fem el mateix d'abans amb la variable retard
         if(pthread_create(&coco,NULL,mou_menjacocos,NULL)!=0){
             fprintf(stderr,"Error al crear el thread del menjacocos\n");
@@ -473,12 +465,12 @@ int main(int n_args, const char *ll_args[])
             tpid[n] = fork();
             if(tpid[n] == (pid_t) 0){
                 sprintf(id_proces,"%i",i); //passem l'identificador del thread a un string
-                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,str_fantasma_trobat,str_mode_normal,(char *)0)==-1){
+                if(execlp("./fantasmes3","fantasmes3",str_fi1,str_fi2,id_proces,str_fantasmes,str_mc,str_retard,str_win,str_n_fil,str_n_col,(char *)0)==-1){
                     fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
                     exit(0);
                 }
             }else if(tpid[n] >0){
-                n++; //incrementem el numero de threads creats si és el pare
+                n++; //incrementem el numero de threads creats si Ã©s el pare
             }else{
                 fprintf(stderr,"Error al crear el proces del fantasma %d\n",i);
                 exit(0);
@@ -486,24 +478,24 @@ int main(int n_args, const char *ll_args[])
         }
          //inicialitza_joc();
         /*
-        * FI CREACIÓ THREAD I PROCESSOS
+        * FI CREACIÃ“ THREAD I PROCESSOS
         */
         do{
           //actualitza_pantalla();
           win_update();
           win_retard(100);
           fi2 = *p_fi2;
-          *p_fi1 = fi1; //el controlem desde aquí
-
+          *p_fi1 = fi1; //el controlem desde aquÃ­
+          
         }while(!fi1&&!fi2);
-
+       
          pthread_join(coco, (void **)&fi1);
         for(int th=0; th<n_fantasmes;th++){
             waitpid(tpid[th],&fi2,NULL); //esperem que el fill acabi
         }
-
-
-
+        
+       
+        
         elim_mem(id_fi1); //eliminem la zona de memoria compartida
         elim_mem(id_fi2); //eliminem la zona de memoria compartida
         elim_mem(id_df); //eliminem la zona de memoria compartida
