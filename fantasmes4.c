@@ -151,7 +151,7 @@ void * read_bustia(void *index)
     	
         fprintf(stderr, "Posició menjacocos: %d %d\n", mc->f, mc->c);
         nd = 0; //numero de direccions disponibles
-        
+        if(mode_normal){
         for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
         {
             vk = (f1.d + k) % 4;		/* direccio veina */
@@ -182,6 +182,26 @@ void * read_bustia(void *index)
                 fprintf(stderr,"NORMAL = %d\n", mode_normal);
             }
         }
+        }
+        if(mode_normal==0){
+            	for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
+        	{
+            	  vk = (f1.d + k) % 4;		/* direccio veina */
+               	  if (vk < 0) vk += 4;		/* corregeix negatius */
+
+            	  seg.f = f1.f + df[vk]; /* calcular posicio en la nova dir.*/
+            	  seg.c = f1.c + dc[vk];
+            	  seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
+            		
+            	    if ((seg.f==n_fil || seg.c==n_col || seg.f== 0|| seg.c== 0)){ //si es la paret i ens en sortim
+            	    
+            	    }
+            	      else{
+            	         vd[nd] = vk;
+            		 }
+            		 nd++;
+                   }
+               }   
         
         
         if (nd == 0){			/* si no pot continuar, */
@@ -194,7 +214,7 @@ void * read_bustia(void *index)
             }
             else if(mode_normal){				/* altrament */
                 f1.d = vd[rand() % nd];		/* segueix una dir. aleatoria */
-            }else{
+            }/*else{
                 //hem de mirar totes les direccions quina está més a prop del fantasma
               
                
@@ -206,7 +226,7 @@ void * read_bustia(void *index)
                     }
                 }
                fprintf(stderr,"direccio triada: %d\n", f1.d);
-            }
+            }*/
             seg.f = f1.f + df[f1.d];  /* calcular seguent posicio final */
             seg.c = f1.c + dc[f1.d];
             seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
@@ -215,8 +235,13 @@ void * read_bustia(void *index)
             f1.f = seg.f; 
             f1.c = seg.c; 
             f1.a = seg.a;	/* actualitza posicio */
-     
+     	    win_escricar(f1.f,f1.c,'1'+i,NO_INV);
             fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
+            
+            
+                    
+            
+            
             
             if (f1.a == '0'){
                 ret = 1;		/* ha capturat menjacocos */

@@ -83,13 +83,13 @@
     int k, vk, nd, vd[3];
     
     ret = 0; 
-    int z=0;
+    //int z=0;
     do{
-    z++;
-     fprintf(stderr,"CAracteristiques exec fantasma:\t fi1: %d fi2: %d \n", fi1, fi2);
+    //z++;
+     //fprintf(stderr,"CAracteristiques exec fantasma:\t fi1: %d fi2: %d \n", fi1, fi2);
     	//win_update();
     	
-        fprintf(stderr,"entra a fantasma per %d cop\n", z);
+        //fprintf(stderr,"entra a fantasma per %d cop\n", z);
         nd = 0; //numero de direccions disponibles
         for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
         {
