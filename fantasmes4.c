@@ -6,6 +6,7 @@
  */
  
  #include <stdio.h>
+
  #include "memoria.h"
  #include "winsuport2.h"		/* incloure definicions de funcions propies */
 #include <stdlib.h>		/* per exit() */
@@ -35,9 +36,9 @@
 void enviar_missatge(int valor, int id_bustia){
     char missatge[20];
     sprintf(missatge,"%d",valor);
-    fprintf(stderr,"SEND => Mode normal: %d\n",mode_normal);
+   // fprintf(stderr,"SEND => Mode normal: %d\n",mode_normal);
     for(int i = 0; i < (numero_fantasmes); i++){ //tenim en compte que el fantasma actual ja ho sap
-        fprintf("Bustia %d x%d",id_bustia,i);
+      //  fprintf("Bustia %d x%d",id_bustia,i);
         sendM(id_bustia, missatge, sizeof(missatge)); //enviem el missatge amb el mode a tots els fantasmes
     }
     
@@ -52,11 +53,11 @@ void * read_bustia(void *index)
    
     char missatge[20];
     int id_bustia = (intptr_t) index;
-     fprintf(stderr,"Thread bustia creat, id = %d",id_bustia);
+    // fprintf(stderr,"Thread bustia creat, id = %d",id_bustia);
     do{
         receiveM(id_bustia, missatge);
         mode_normal=atoi(missatge);
-        fprintf(stderr,"RECIEVE => Mode normal: %d\n",mode_normal);
+       // fprintf(stderr,"RECIEVE => Mode normal: %d\n",mode_normal);
     }while(1);
    
 
@@ -141,7 +142,7 @@ void * read_bustia(void *index)
 
     objecte seg;
     int ret;
-    int k, vk, nd, vd[3];
+    int k, vk, nd, vd[3], vd_sec[3]; //vd_sec es el vector de direccions secundaries
     int distancia[3];
     ret = 0; 
     
@@ -151,7 +152,8 @@ void * read_bustia(void *index)
     	
         fprintf(stderr, "Posició menjacocos: %d %d\n", mc->f, mc->c);
         nd = 0; //numero de direccions disponibles
-        if(mode_normal){
+        int nd_secundari = 0;
+        float distancia[3]; //distancia entre el fantasma i el comecocos
         for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
         {
             vk = (f1.d + k) % 4;		/* direccio veina */
@@ -163,58 +165,76 @@ void * read_bustia(void *index)
             if (mode_normal == 0 ||(seg.a==' ') || (seg.a=='.') || (seg.a=='0') ) //si está disponible o no estem en mode normal
             { 
             
-                vd[nd] = vk;			/* memoritza com a direccio possible */
+               			
                 if(mode_normal==0){
                     //treiem distancia entre el fantasma i el comecocos, la guardem en una taula
-                    fprintf(stderr,"Moviment fila = %d, columna = %d a les posicions (%d,%d)\n",df[vk],dc[vk],seg.f,seg.c);
+                    
                     fprintf(stderr, "Posició menjacocos: %d %d\n", mc->f, mc->c);
                     if(seg.f == mc->f || seg.c == mc->c){
-                        distancia[nd] = 1;
+                        vd[nd] = vk;/* memoritza com a direccio possible */
+                         nd++;
+                         fprintf(stderr,"%i-CACERA=>Moviment fila = %d, columna = %d a les posicions (%d,%d)\n",i,df[vk],dc[vk],seg.f,seg.c);
+                         
                     }else{
-                        distancia[nd] = 0;
+                        //en el cas de que no sigui una directa la guardem com a segona opció
+                        if (!(seg.f>=n_fil || seg.c>=n_col || seg.f<= 0|| seg.c<= 0)){ //si no es la paret i no ens en sortim
+                            vd_sec[nd_secundari] = vk;
+                            distancia[nd_secundari] = (seg.f - mc->f)*(seg.f - mc->f) + (seg.c - mc->c)*(seg.c - mc->c); //distancia euclidiana
+                            
+                            fprintf(stderr,"CERCA DEL COMOCOS -> Direcció %d, distancia %f, moviment a (%d,%d)\n", vd_sec[nd_secundari], distancia[nd_secundari], seg.f, seg.c);
+                            nd_secundari++;
+                        }else{
+                            fprintf(stderr,"PARET -> Direcció %d, posicion (%d,%d)\n", vk, seg.f, seg.c);
+                        }
                     }
-                    fprintf(stderr,"CACERA -> Direcció %d, distancia %d\n", vd[nd], distancia[nd]);
+                    
                 }else{
-                    fprintf(stderr,"NORMAL = %d - Direcció %d\n", mode_normal ,vd[nd]);
+                    vd[nd] = vk; /* memoritza com a direccio possible */
+                     nd++;
+                    fprintf(stderr,"NORMAL = %d - Direcció %d, nd=%d\n", mode_normal ,vd[nd],nd);
                 }
-                nd++;
+               
             }else{
                 fprintf(stderr,"NORMAL = %d\n", mode_normal);
             }
         }
-        }
-        if(mode_normal==0){
-            	for (k=-1; k<=1; k++)		/* provar direccio actual i dir. veines */
-        	{
-            	  vk = (f1.d + k) % 4;		/* direccio veina */
-               	  if (vk < 0) vk += 4;		/* corregeix negatius */
-
-            	  seg.f = f1.f + df[vk]; /* calcular posicio en la nova dir.*/
-            	  seg.c = f1.c + dc[vk];
-            	  seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
-            		
-            	    if ((seg.f==n_fil || seg.c==n_col || seg.f== 0|| seg.c== 0)){ //si es la paret i ens en sortim
-            	    
-            	    }
-            	      else{
-            	         vd[nd] = vk;
-            		 }
-            		 nd++;
-                   }
-               }   
+        
+     
         
         
         if (nd == 0){			/* si no pot continuar, */
-            f1.d = (f1.d + 2) % 4;		/* canvia totalment de sentit */
+            if(mode_normal==0){
+                
+                //estem en mode cacera, però no alineats amb el comecocos
+                //hem de mirar totes les direccions quina está més a prop del fantasma
+                
+                //mirem totes les distancies i escollim el camí més curt entre les direccions disponibles
+                fprintf(stderr,"nd_secundari = %d\n", nd_secundari);
+                //agafem la distancia més petita
+                float min = distancia[0];
+                f1.d = vd_sec[0];
+                for(int j = 1; j < nd_secundari; j++){
+                    if(distancia[j] < min){
+                        min = distancia[j];
+                        f1.d = vd_sec[j];
+                    }
+                }
+                fprintf(stderr,"Fantasma %d desbloquejat, direcció %d\n",i,f1.d);
+            }else{
+                 fprintf(stderr,"Fantasma %d bloquejat, donem la volta\n",i);
+                f1.d = (f1.d + 2) % 4;		/* canvia totalment de sentit */
+            }
+           
         }else
         { 
             
             if (nd == 1){			/* si nomes pot en una direccio */
                 f1.d = vd[0];			/* li assigna aquesta */
             }
-            else if(mode_normal){				/* altrament */
+            else{				/* altrament */
                 f1.d = vd[rand() % nd];		/* segueix una dir. aleatoria */
-            }/*else{
+            }
+        }/*else{
                 //hem de mirar totes les direccions quina está més a prop del fantasma
               
                
@@ -227,66 +247,67 @@ void * read_bustia(void *index)
                 }
                fprintf(stderr,"direccio triada: %d\n", f1.d);
             }*/
-            seg.f = f1.f + df[f1.d];  /* calcular seguent posicio final */
-            seg.c = f1.c + dc[f1.d];
-            seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
-            win_escricar(f1.f,f1.c,f1.a,NO_INV);	/* esborra posicio anterior */
-            fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
-            f1.f = seg.f; 
-            f1.c = seg.c; 
-            f1.a = seg.a;	/* actualitza posicio */
-     	    win_escricar(f1.f,f1.c,'1'+i,NO_INV);
-            fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
-            
-            
-                    
-            
-            
-            
-            if (f1.a == '0'){
-                ret = 1;		/* ha capturat menjacocos */
-                fprintf(stderr,"Fantasma %d capturat\n",i);
-            }else if(mode_normal||fantasma_trobat == i){
-                //fantasma_trobat és -1 si no es sap qui l'ha trobat, només ho sap el que l'ha trobat
-                //recorrem tota la direcció mentre sigui '.' o ' '
-                int fila_actual = f1.f + df[f1.d];
-                int col_actual = f1.c + dc[f1.d];
-                while(win_quincar(fila_actual, col_actual) == '.' || win_quincar(fila_actual, col_actual) == ' '){
-                    fila_actual += df[f1.d]; //avancem en la direcció
-                    col_actual += dc[f1.d]; //avancem en la direcció
-                }
-                if(win_quincar(fila_actual, col_actual) == '0'){
-                    fprintf(stderr,"Activant mode cacera, menjacocos a la pos %d, %d\n", fila_actual, col_actual);
-                    mode_normal=0;    //activar mode cacera
-                    enviar_missatge(mode_normal, id_bustia); //enviem el mode normal
-                    fantasma_trobat=i;  //indicar fantasma que l'ha trobat
-                    
-                }else if(fantasma_trobat == i){ //si arriba no l'ha trobat, és a dir s'ha trobat una paret
-                //si és el que l'havia trobat al principi el deixa de veure
-                    fprintf(stderr,"Desactivant mode cacera, menjacocos a la pos %d, %d\n", fila_actual, col_actual);
-                    fantasma_trobat = -1;
-                    //TODO
-                    mode_normal=1;    //desactivar mode cacera
-                    enviar_missatge(mode_normal, id_bustia); //enviem el mode normal
-                    
-                }
+        seg.f = f1.f + df[f1.d];  /* calcular seguent posicio final */
+        seg.c = f1.c + dc[f1.d];
+        seg.a = win_quincar(seg.f,seg.c);	/* calcular caracter seguent posicio */
+        win_escricar(f1.f,f1.c,f1.a,NO_INV);	/* esborra posicio anterior */
+        fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
+        f1.f = seg.f; 
+        f1.c = seg.c; 
+        f1.a = seg.a;	/* actualitza posicio */
+        win_escricar(f1.f,f1.c,'1'+i,NO_INV);
+        fprintf(stderr,"CAracteristiques del fantasma:\t fila: %d col: %d dir: %d car: %c\n", f1.f, f1.c, f1.d, f1.a);
+        
+        
+                
+        
+        
+        
+        if (f1.a == '0'){
+            ret = 1;		/* ha capturat menjacocos */
+            fprintf(stderr,"Fantasma %d capturat\n",i);
+        }else if(mode_normal||fantasma_trobat == i){
+            //fantasma_trobat és -1 si no es sap qui l'ha trobat, només ho sap el que l'ha trobat
+            //recorrem tota la direcció mentre sigui '.' o ' '
+            int fila_actual = f1.f + df[f1.d];
+            int col_actual = f1.c + dc[f1.d];
+            while(win_quincar(fila_actual, col_actual)==' '||win_quincar(fila_actual, col_actual)=='.'){
+                fila_actual += df[f1.d]; //avancem en la direcció
+                col_actual += dc[f1.d]; //avancem en la direcció
             }
-            if(fantasma_trobat == i){
-                win_escricar(f1.f,f1.c,(char) ('1'+i),INVERS);	//dibuixar fantasma invers
-            }else{
-                win_escricar(f1.f,f1.c,(char) ('1'+i),NO_INV);	//dibuixar fantasmes normal
+            if(mode_normal==1&&win_quincar(fila_actual, col_actual)=='0'){
+                fprintf(stderr,"Activant %i mode cacera, menjacocos a la pos %d, %d\n",i, fila_actual, col_actual);
+                mode_normal=0;    //activar mode cacera
+                
+                fantasma_trobat=i;  //indicar fantasma que l'ha trobat
+                
+            }else if(win_quincar(fila_actual, col_actual)!='0'&&fantasma_trobat == i){ //si arriba no l'ha trobat, és a dir s'ha trobat una paret
+            //si és el que l'havia trobat al principi el deixa de veure
+                fprintf(stderr,"Desactivant %i mode cacera, fantasma a la pos (%d, %d) que hi ha %c. Menjacocos a la pos (%d,%d)\n",i, fila_actual, col_actual, win_quincar(fila_actual, col_actual), mc->f, mc->c);
+                fantasma_trobat = -1;
+                //TODO
+                mode_normal=1;    //desactivar mode cacera
+                
+                
             }
+        }
+        if(fantasma_trobat == i){
+            win_escricar(f1.f,f1.c,(char) ('1'+i),INVERS);	//dibuixar fantasma invers
+        }else{
+            win_escricar(f1.f,f1.c,(char) ('1'+i),NO_INV);	//dibuixar fantasmes normal
+        }
            
             
-        }
+        
         
         *fi2_p=ret;
-        fprintf(stderr,"CAracteristiques exec fantasma:\t fi1: %d fi2: %d \n", (*fi1_p), (*fi2_p));
+        //fprintf(stderr,"CAracteristiques exec fantasma:\t fi1: %d fi2: %d \n", (*fi1_p), (*fi2_p));
         signalS(id_sem); //señalizamos que ya hemos acabado
-        fprintf(stderr,"Fantasma %d - Esperem al semafor %d\n",i,id_sem);
+        enviar_missatge(mode_normal, id_bustia); //enviem el mode normal
+      //  fprintf(stderr,"Fantasma %d - Esperem al semafor %d\n",i,id_sem);
         win_retard((mc->r)* (int) *retard);
         waitS(id_sem); //bloqueja
-        fprintf(stderr,"Fantasma %d - Semafor %d VERD\n",i,id_sem);
+     //   fprintf(stderr,"Fantasma %d - Semafor %d VERD\n",i,id_sem);
     }while (!(*fi1_p) && !(*fi2_p));//!fi1 && !fi2)
     fprintf(stderr,"FI Fantasma %d",i);
     signalS(id_sem);
