@@ -1,0 +1,2725 @@
+
+Ha carregat el tauler
+'
+Fantasma 0: Fila 5 i Columna 1
+Fantasma 1: Fila 1 i Columna 26
+Fantasma 2: Fila 13 i Columna 37
+Fantasma 3: Fila 1 i Columna 51
+El valor del numero de fantasmes és 4
+n_files = 16, n_cols = 53n_files = 16, n_cols = 53lab3
+AL peincipi hi han cocos = 172
+Ara passen a cocos = 171
+joc inicialitzat okcocos = 170
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 169
+Menjacocos - Esperem al semafor 21
+Menjacocos - Semafor 21 VERD
+cocos = 168
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 167
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 166
+Menjacocos - Esperem al semafor 21
+Menjacocos - Semafor 21 VERD
+cocos = 165
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 164
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 163
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 162
+Menjacocos - Esperem al semafor 21
+Menjacocos - Semafor 21 VERD
+Main - Esperem al semafor 21
+cocos = 161
+Menjacocos - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 160
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 159
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Main - Esperem al semafor 21
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 158
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 157
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 156
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 155
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 154
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 153
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 152
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 151
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 150
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 149
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 148
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 147
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 146
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 145
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 144
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 143
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 142
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 141
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 140
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 139
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 138
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 137
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 136
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Creant fantasma 0
+
+hi han 4 fantasmes
+Fantasma 0 inici - Semafor 21 VERD
+Argument 0: fantasmes4
+Argument 1: 131471
+Argument 2: 131472
+Argument 3: 0
+Argument 4: 131475
+Argument 5: 131476
+Argument 6: 131477
+Argument 7: 131470
+Argument 8: 16
+Argument 9: 53
+Argument 10: 19
+Argument 11: 4
+Argument 12: 21
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 0 creat
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 1 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 2 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 2 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 3 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 3 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 4 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 4 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 5 dir: 3 car: .
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 5 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 6 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 6 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 7 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 7 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 8 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 8 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 9 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 9 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 10 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 10 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 11 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 4, nd=3
+Fantasma 0 abans=>	 fila: 5 col: 11 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 12 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 12 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 13 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 13 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 14 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 14 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 15 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 15 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 16 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 16 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 17 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 17 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 18 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 18 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 19 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 19 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 20 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 20 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 21 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 21 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 22 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 135
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 22 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 23 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 134
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 23 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 24 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 133
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 24 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 25 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 132
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 25 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 26 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 131
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 4, nd=3
+Fantasma 0 abans=>	 fila: 5 col: 26 dir: 3 car:  
+Fantasma 0 després=>	 fila: 5 col: 27 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 130
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 27 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 28 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 129
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 28 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 29 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 128
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 29 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 30 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 127
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 30 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 31 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 31 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 32 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 32 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 33 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 33 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 34 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 34 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 35 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Creant fantasma 1
+
+hi han 4 fantasmes
+Fantasma 1 inici - Semafor 21 VERD
+Argument 0: fantasmes4
+Argument 1: 131471
+Argument 2: 131472
+Argument 3: 1
+Argument 4: 131480
+Argument 5: 131481
+Argument 6: 131482
+Argument 7: 131470
+Argument 8: 16
+Argument 9: 53
+Argument 10: 19
+Argument 11: 4
+Argument 12: 21
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 1 creat
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 1 col: 26 dir: 2 car: .
+Fantasma 1 després=>	 fila: 2 col: 26 dir: 2 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 35 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 36 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 2 col: 26 dir: 2 car: .
+Fantasma 1 després=>	 fila: 3 col: 26 dir: 2 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 5 col: 36 dir: 3 car: .
+Fantasma 0 després=>	 fila: 5 col: 37 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 3 col: 26 dir: 2 car: .
+Fantasma 1 després=>	 fila: 4 col: 26 dir: 2 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 4, nd=3
+Fantasma 0 abans=>	 fila: 5 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 6 col: 37 dir: 2 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 4 col: 26 dir: 2 car: .
+Fantasma 1 després=>	 fila: 5 col: 26 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+cocos = 126
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 6 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 7 col: 37 dir: 2 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 5, nd=3
+Fantasma 1 abans=>	 fila: 5 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 6 col: 26 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 7 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 8 col: 37 dir: 2 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 6 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 7 col: 26 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 8 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 9 col: 37 dir: 2 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 7 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 8 col: 26 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 9 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 10 col: 37 dir: 2 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 8 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 9 col: 26 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 10 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 11 col: 37 dir: 2 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 9 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 10 col: 26 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Main - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 11, nd=3
+Fantasma 0 abans=>	 fila: 11 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 12 col: 37 dir: 2 car: .
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 10 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 11 col: 26 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+cocos = 125
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 12 col: 37 dir: 2 car: .
+Fantasma 0 després=>	 fila: 13 col: 37 dir: 2 car: .
+Posició menjacocos: 0 0
+Main - Esperem al semafor 21
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+NORMAL = 1 - Direcció 11, nd=3
+Fantasma 1 abans=>	 fila: 11 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 12 col: 26 dir: 2 car:  
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 124
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+Fantasma 0 abans=>	 fila: 13 col: 37 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 38 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 12 col: 26 dir: 2 car:  
+Fantasma 1 després=>	 fila: 13 col: 26 dir: 2 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+cocos = 123
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 38 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 39 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1
+NORMAL = 1
+Fantasma 1 bloquejat, donem la volta
+Fantasma 1 abans=>	 fila: 13 col: 26 dir: 0 car:  
+Fantasma 1 després=>	 fila: 12 col: 26 dir: 0 car:  
+Menjacocos - Semafor 21 VERD
+cocos = 122
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 39 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 40 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 12 col: 26 dir: 0 car:  
+Fantasma 1 després=>	 fila: 11 col: 26 dir: 0 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 40 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 41 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+NORMAL = 1 - Direcció 11, nd=3
+Fantasma 1 abans=>	 fila: 11 col: 26 dir: 3 car:  
+Fantasma 1 després=>	 fila: 11 col: 27 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 121
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 41 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 42 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 27 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 28 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 42 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 43 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Creant fantasma 2
+
+hi han 4 fantasmes
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 28 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 29 dir: 3 car: .
+Fantasma 2 inici - Semafor 21 VERD
+Argument 0: fantasmes4
+Argument 1: 131471
+Argument 2: 131472
+Argument 3: 2
+Argument 4: 131485
+Argument 5: 131486
+Argument 6: 131487
+Argument 7: 131470
+Argument 8: 16
+Argument 9: 53
+Argument 10: 19
+Argument 11: 4
+Argument 12: 21
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 2 creat
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 13 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 12 col: 37 dir: 0 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 43 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 44 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 29 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 30 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 12 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 11 col: 37 dir: 0 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 44 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 45 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 30 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 31 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 11, nd=3
+Fantasma 2 abans=>	 fila: 11 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 10 col: 37 dir: 0 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 45 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 46 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 31 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 32 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 10 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 9 col: 37 dir: 0 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 120
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 46 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 47 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 32 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 33 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 9 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 8 col: 37 dir: 0 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 119
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 47 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 48 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 33 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 34 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 8 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 7 col: 37 dir: 0 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 118
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 48 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 49 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 34 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 35 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 7 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 6 col: 37 dir: 0 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 117
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 49 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 50 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 6 col: 37 dir: 0 car: .
+Fantasma 2 després=>	 fila: 5 col: 37 dir: 0 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 35 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 36 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 116
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 13 col: 50 dir: 3 car: .
+Fantasma 0 després=>	 fila: 13 col: 51 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 36 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 37 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1 - Direcció 1, nd=2
+NORMAL = 1 - Direcció 5, nd=3
+Fantasma 2 abans=>	 fila: 5 col: 37 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 38 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 115
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+Fantasma 0 abans=>	 fila: 13 col: 51 dir: 0 car: .
+Fantasma 0 després=>	 fila: 12 col: 51 dir: 0 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 38 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 39 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1 - Direcció 1, nd=2
+NORMAL = 1 - Direcció 10, nd=3
+Fantasma 1 abans=>	 fila: 11 col: 37 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 38 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 114
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 12 col: 51 dir: 0 car: .
+Fantasma 0 després=>	 fila: 11 col: 51 dir: 0 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 39 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 40 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 38 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 39 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 113
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+Fantasma 0 abans=>	 fila: 11 col: 51 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 50 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 40 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 41 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 39 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 40 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+cocos = 112
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 50 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 49 dir: 1 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 41 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 42 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 40 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 41 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 49 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 48 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 42 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 43 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 41 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 42 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 48 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 47 dir: 1 car: .
+Main - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 43 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 44 dir: 3 car: .
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 42 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 43 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 47 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 46 dir: 1 car: .
+Main - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 44 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 45 dir: 3 car: .
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 43 dir: 3 car: .
+Fantasma 1 després=>	 fila: 11 col: 44 dir: 3 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 46 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 45 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 5 col: 45 dir: 3 car: .
+Fantasma 2 després=>	 fila: 5 col: 46 dir: 3 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1
+NORMAL = 1
+Fantasma 1 bloquejat, donem la volta
+Fantasma 1 abans=>	 fila: 11 col: 44 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 43 dir: 1 car: .
+Activant 1 mode cacera, menjacocos a la pos 11, 3
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1765.000000, moviment a (10,45)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,44)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1765.000000, moviment a (12,45)
+Fantasma 0 abans=>	 fila: 11 col: 45 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 44 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1874.000000, moviment a (6,46)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 3, distancia 1972.000000, moviment a (5,47)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1898.000000, moviment a (4,46)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 2
+Fantasma 2 abans=>	 fila: 5 col: 46 dir: 2 car: .
+Fantasma 2 després=>	 fila: 6 col: 46 dir: 2 car: +
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1601.000000, moviment a (10,43)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,42)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1601.000000, moviment a (12,43)
+Fantasma 1 abans=>	 fila: 11 col: 43 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 42 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Creant fantasma 3
+
+hi han 4 fantasmes
+Fantasma 3 inici - Semafor 21 VERD
+Argument 0: fantasmes4
+Argument 1: 131471
+Argument 2: 131472
+Argument 3: 3
+Argument 4: 131490
+Argument 5: 131491
+Argument 6: 131492
+Argument 7: 131470
+Argument 8: 16
+Argument 9: 53
+Argument 10: 19
+Argument 11: 4
+Argument 12: 21
+CAracteristiques exec fantasma:	 fi1: 0 fi2: 0 
+Fantasma 3 creat
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+Fantasma 3 abans=>	 fila: 1 col: 51 dir: 2 car: .
+Fantasma 3 després=>	 fila: 2 col: 51 dir: 2 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1682.000000, moviment a (10,44)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,43)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1682.000000, moviment a (12,44)
+Fantasma 0 abans=>	 fila: 11 col: 44 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 43 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1789.000000, moviment a (6,45)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1865.000000, moviment a (7,46)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 3, distancia 1961.000000, moviment a (6,47)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 46 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 45 dir: 1 car: +
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1522.000000, moviment a (10,42)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,41)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1522.000000, moviment a (12,42)
+Fantasma 1 abans=>	 fila: 11 col: 42 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 41 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 2 col: 51 dir: 2 car: .
+Fantasma 3 després=>	 fila: 3 col: 51 dir: 2 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1601.000000, moviment a (10,43)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,42)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1601.000000, moviment a (12,43)
+Fantasma 0 abans=>	 fila: 11 col: 43 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 42 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1800.000000, moviment a (5,45)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1706.000000, moviment a (6,44)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1780.000000, moviment a (7,45)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 45 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 44 dir: 1 car: +
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1445.000000, moviment a (10,41)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,40)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1445.000000, moviment a (12,41)
+Fantasma 1 abans=>	 fila: 11 col: 41 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 40 dir: 1 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 3 col: 51 dir: 2 car: .
+Fantasma 3 després=>	 fila: 4 col: 51 dir: 2 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1522.000000, moviment a (10,42)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,41)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1522.000000, moviment a (12,42)
+Fantasma 0 abans=>	 fila: 11 col: 42 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 41 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1717.000000, moviment a (5,44)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1625.000000, moviment a (6,43)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1697.000000, moviment a (7,44)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 44 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 43 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 4 col: 51 dir: 2 car: .
+Fantasma 3 després=>	 fila: 5 col: 51 dir: 2 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1370.000000, moviment a (10,40)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,39)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1370.000000, moviment a (12,40)
+Fantasma 1 abans=>	 fila: 11 col: 40 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 39 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1445.000000, moviment a (10,41)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,40)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1445.000000, moviment a (12,41)
+Fantasma 0 abans=>	 fila: 11 col: 41 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 40 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1636.000000, moviment a (5,43)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1546.000000, moviment a (6,42)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1616.000000, moviment a (7,43)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 43 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 42 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 51 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 50 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1297.000000, moviment a (10,39)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,38)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1297.000000, moviment a (12,39)
+Fantasma 1 abans=>	 fila: 11 col: 39 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 38 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1370.000000, moviment a (10,40)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,39)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1370.000000, moviment a (12,40)
+Fantasma 0 abans=>	 fila: 11 col: 40 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 39 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1557.000000, moviment a (5,42)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1469.000000, moviment a (6,41)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1537.000000, moviment a (7,42)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 42 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 41 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 50 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 49 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1226.000000, moviment a (10,38)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,37)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1226.000000, moviment a (12,38)
+Fantasma 1 abans=>	 fila: 11 col: 38 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 37 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1297.000000, moviment a (10,39)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,38)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1297.000000, moviment a (12,39)
+Fantasma 0 abans=>	 fila: 11 col: 39 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 38 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1480.000000, moviment a (5,41)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1394.000000, moviment a (6,40)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1460.000000, moviment a (7,41)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 41 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 40 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 49 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 48 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1157.000000, moviment a (10,37)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,36)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1157.000000, moviment a (12,37)
+Fantasma 1 abans=>	 fila: 11 col: 37 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 36 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1226.000000, moviment a (10,38)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,37)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1226.000000, moviment a (12,38)
+Fantasma 0 abans=>	 fila: 11 col: 38 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 37 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1405.000000, moviment a (5,40)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1321.000000, moviment a (6,39)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1385.000000, moviment a (7,40)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 40 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 39 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 48 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 47 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1090.000000, moviment a (10,36)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,35)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1090.000000, moviment a (12,36)
+Fantasma 1 abans=>	 fila: 11 col: 36 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 35 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1157.000000, moviment a (10,37)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,36)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1157.000000, moviment a (12,37)
+Fantasma 0 abans=>	 fila: 11 col: 37 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 36 dir: 1 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 47 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 46 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1332.000000, moviment a (5,39)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1250.000000, moviment a (6,38)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1312.000000, moviment a (7,39)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 39 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 38 dir: 1 car: +
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1025.000000, moviment a (10,35)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,34)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1025.000000, moviment a (12,35)
+Fantasma 1 abans=>	 fila: 11 col: 35 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 34 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1090.000000, moviment a (10,36)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,35)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1090.000000, moviment a (12,36)
+Fantasma 0 abans=>	 fila: 11 col: 36 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 35 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 46 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 45 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1261.000000, moviment a (5,38)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1181.000000, moviment a (6,37)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1241.000000, moviment a (7,38)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 38 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 37 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 962.000000, moviment a (10,34)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,33)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 962.000000, moviment a (12,34)
+Fantasma 1 abans=>	 fila: 11 col: 34 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 33 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1025.000000, moviment a (10,35)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,34)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1025.000000, moviment a (12,35)
+Fantasma 0 abans=>	 fila: 11 col: 35 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 34 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 45 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 44 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1192.000000, moviment a (5,37)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1114.000000, moviment a (6,36)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1172.000000, moviment a (7,37)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 37 dir: 1 car: .
+Fantasma 2 després=>	 fila: 6 col: 36 dir: 1 car: +
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 901.000000, moviment a (10,33)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,32)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 901.000000, moviment a (12,33)
+Fantasma 1 abans=>	 fila: 11 col: 33 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 32 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 962.000000, moviment a (10,34)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,33)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 962.000000, moviment a (12,34)
+Fantasma 0 abans=>	 fila: 11 col: 34 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 33 dir: 1 car: .
+Main - Esperem al semafor 21
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 44 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 43 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1125.000000, moviment a (5,36)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 1049.000000, moviment a (6,35)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1105.000000, moviment a (7,36)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 36 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 35 dir: 1 car: +
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 842.000000, moviment a (10,32)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,31)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 842.000000, moviment a (12,32)
+Fantasma 1 abans=>	 fila: 11 col: 32 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 31 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 901.000000, moviment a (10,33)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,32)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 901.000000, moviment a (12,33)
+Fantasma 0 abans=>	 fila: 11 col: 33 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 32 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 1060.000000, moviment a (5,35)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 986.000000, moviment a (6,34)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 1040.000000, moviment a (7,35)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 35 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 34 dir: 1 car: +
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 43 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 42 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 785.000000, moviment a (10,31)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,30)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 785.000000, moviment a (12,31)
+Fantasma 1 abans=>	 fila: 11 col: 31 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 30 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 842.000000, moviment a (10,32)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,31)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 842.000000, moviment a (12,32)
+Fantasma 0 abans=>	 fila: 11 col: 32 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 31 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 997.000000, moviment a (5,34)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 925.000000, moviment a (6,33)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 977.000000, moviment a (7,34)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 34 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 33 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 42 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 41 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 730.000000, moviment a (10,30)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,29)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 730.000000, moviment a (12,30)
+Fantasma 1 abans=>	 fila: 11 col: 30 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 29 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 785.000000, moviment a (10,31)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,30)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 785.000000, moviment a (12,31)
+Fantasma 0 abans=>	 fila: 11 col: 31 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 30 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 936.000000, moviment a (5,33)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 866.000000, moviment a (6,32)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 916.000000, moviment a (7,33)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 33 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 32 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 41 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 40 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 677.000000, moviment a (10,29)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,28)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 677.000000, moviment a (12,29)
+Fantasma 1 abans=>	 fila: 11 col: 29 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 28 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 730.000000, moviment a (10,30)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,29)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 730.000000, moviment a (12,30)
+Fantasma 0 abans=>	 fila: 11 col: 30 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 29 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 877.000000, moviment a (5,32)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 809.000000, moviment a (6,31)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 857.000000, moviment a (7,32)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 32 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 31 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 40 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 39 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 626.000000, moviment a (10,28)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,27)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 626.000000, moviment a (12,28)
+Fantasma 1 abans=>	 fila: 11 col: 28 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 27 dir: 1 car: .
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 677.000000, moviment a (10,29)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,28)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 677.000000, moviment a (12,29)
+Fantasma 0 abans=>	 fila: 11 col: 29 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 28 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 820.000000, moviment a (5,31)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 754.000000, moviment a (6,30)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 800.000000, moviment a (7,31)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 31 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 30 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 39 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 38 dir: 1 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 577.000000, moviment a (10,27)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,26)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 577.000000, moviment a (12,27)
+Fantasma 1 abans=>	 fila: 11 col: 27 dir: 1 car: .
+Fantasma 1 després=>	 fila: 11 col: 26 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 626.000000, moviment a (10,28)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,27)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 626.000000, moviment a (12,28)
+Fantasma 0 abans=>	 fila: 11 col: 28 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 27 dir: 1 car: .
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 5 col: 38 dir: 1 car: .
+Fantasma 3 després=>	 fila: 5 col: 37 dir: 1 car: .
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 765.000000, moviment a (5,30)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 701.000000, moviment a (6,29)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 745.000000, moviment a (7,30)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 30 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 29 dir: 1 car: +
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 530.000000, moviment a (10,26)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,25)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 530.000000, moviment a (12,26)
+Fantasma 1 abans=>	 fila: 11 col: 26 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 25 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 577.000000, moviment a (10,27)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,26)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 577.000000, moviment a (12,27)
+Fantasma 0 abans=>	 fila: 11 col: 27 dir: 1 car: .
+Fantasma 0 després=>	 fila: 11 col: 26 dir: 1 car:  
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 712.000000, moviment a (5,29)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 650.000000, moviment a (6,28)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 692.000000, moviment a (7,29)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 29 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 28 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 6, nd=3
+Fantasma 3 abans=>	 fila: 5 col: 37 dir: 0 car: .
+Fantasma 3 després=>	 fila: 4 col: 37 dir: 0 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 485.000000, moviment a (10,25)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,24)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 485.000000, moviment a (12,25)
+Fantasma 1 abans=>	 fila: 11 col: 25 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 24 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 530.000000, moviment a (10,26)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,25)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 530.000000, moviment a (12,26)
+Fantasma 0 abans=>	 fila: 11 col: 26 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 25 dir: 1 car:  
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 661.000000, moviment a (5,28)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 601.000000, moviment a (6,27)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 641.000000, moviment a (7,28)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 28 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 27 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 4 col: 37 dir: 0 car: .
+Fantasma 3 després=>	 fila: 3 col: 37 dir: 0 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 442.000000, moviment a (10,24)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,23)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 442.000000, moviment a (12,24)
+Fantasma 1 abans=>	 fila: 11 col: 24 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 23 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 485.000000, moviment a (10,25)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,24)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 485.000000, moviment a (12,25)
+Fantasma 0 abans=>	 fila: 11 col: 25 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 24 dir: 1 car:  
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 612.000000, moviment a (5,27)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 554.000000, moviment a (6,26)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 592.000000, moviment a (7,27)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 27 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 26 dir: 1 car:  
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 3 col: 37 dir: 0 car: .
+Fantasma 3 després=>	 fila: 2 col: 37 dir: 0 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Creant fantasma 4
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 401.000000, moviment a (10,23)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,22)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 401.000000, moviment a (12,23)
+Fantasma 1 abans=>	 fila: 11 col: 23 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 22 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 442.000000, moviment a (10,24)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,23)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 442.000000, moviment a (12,24)
+Fantasma 0 abans=>	 fila: 11 col: 24 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 23 dir: 1 car:  
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 565.000000, moviment a (5,26)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 509.000000, moviment a (6,25)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 545.000000, moviment a (7,26)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 26 dir: 1 car:  
+Fantasma 2 després=>	 fila: 6 col: 25 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 2 col: 37 dir: 0 car: .
+Fantasma 3 després=>	 fila: 1 col: 37 dir: 0 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 362.000000, moviment a (10,22)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,21)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 362.000000, moviment a (12,22)
+Fantasma 1 abans=>	 fila: 11 col: 22 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 21 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 401.000000, moviment a (10,23)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,22)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 401.000000, moviment a (12,23)
+Fantasma 0 abans=>	 fila: 11 col: 23 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 22 dir: 1 car:  
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 520.000000, moviment a (5,25)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 466.000000, moviment a (6,24)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 500.000000, moviment a (7,25)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 25 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 24 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 37 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 38 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 325.000000, moviment a (10,21)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,20)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 325.000000, moviment a (12,21)
+Fantasma 1 abans=>	 fila: 11 col: 21 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 20 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 362.000000, moviment a (10,22)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,21)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 362.000000, moviment a (12,22)
+Fantasma 0 abans=>	 fila: 11 col: 22 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 21 dir: 1 car:  
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 477.000000, moviment a (5,24)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 425.000000, moviment a (6,23)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 457.000000, moviment a (7,24)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 24 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 23 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 38 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 39 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 290.000000, moviment a (10,20)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,19)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 290.000000, moviment a (12,20)
+Fantasma 1 abans=>	 fila: 11 col: 20 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 19 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 325.000000, moviment a (10,21)
+Posició menjacocos: 11 3
+0-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,20)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 325.000000, moviment a (12,21)
+Fantasma 0 abans=>	 fila: 11 col: 21 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 20 dir: 1 car:  
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 436.000000, moviment a (5,23)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 1, distancia 386.000000, moviment a (6,22)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 416.000000, moviment a (7,23)
+nd_secundari = 3
+Fantasma 2 desbloquejat, direcció 1
+Fantasma 2 abans=>	 fila: 6 col: 23 dir: 1 car: +
+Fantasma 2 després=>	 fila: 6 col: 22 dir: 1 car: +
+Posició menjacocos: 0 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 39 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 40 dir: 3 car: .
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 3
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 0, distancia 257.000000, moviment a (10,19)
+Posició menjacocos: 11 3
+1-CACERA=>Moviment fila = 0, columna = -1 a les posicions (11,18)
+Posició menjacocos: 11 3
+CERCA DEL COMOCOS -> Direcció 2, distancia 257.000000, moviment a (12,19)
+Fantasma 1 abans=>	 fila: 11 col: 19 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 18 dir: 1 car:  
+Desactivant 1 mode cacera, fantasma a la pos (11, 0) que hi ha +. Menjacocos a la pos (11,3)
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 20 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 19 dir: 1 car:  
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 40 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 41 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 0, nd=1
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=2
+Fantasma 2 abans=>	 fila: 6 col: 22 dir: 2 car: +
+Fantasma 2 després=>	 fila: 7 col: 22 dir: 2 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 18 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 17 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 19 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 18 dir: 1 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 1, nd=2
+NORMAL = 1 - Direcció 7, nd=3
+Fantasma 2 abans=>	 fila: 7 col: 22 dir: 3 car:  
+Fantasma 2 després=>	 fila: 7 col: 23 dir: 3 car:  
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 41 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 42 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 17 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 16 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 18 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 17 dir: 1 car:  
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 7 col: 23 dir: 3 car:  
+Fantasma 2 després=>	 fila: 7 col: 24 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 42 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 43 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 16 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 15 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 17 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 16 dir: 1 car:  
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 7 col: 24 dir: 2 car:  
+Fantasma 2 després=>	 fila: 8 col: 24 dir: 2 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 43 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 44 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 15 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 14 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 16 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 15 dir: 1 car:  
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+NORMAL = 1
+Fantasma 2 abans=>	 fila: 8 col: 24 dir: 1 car:  
+Fantasma 2 després=>	 fila: 8 col: 23 dir: 1 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 44 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 45 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 14 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 13 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 15 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 14 dir: 1 car:  
+Posició menjacocos: 11 0
+Main - Esperem al semafor 21
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+NORMAL = 1 - Direcció 9, nd=3
+Fantasma 2 abans=>	 fila: 8 col: 23 dir: 0 car:  
+Fantasma 2 després=>	 fila: 7 col: 23 dir: 0 car:  
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 45 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 46 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 13 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 12 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 14 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 13 dir: 1 car:  
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+NORMAL = 1 - Direcció 2, nd=2
+Fantasma 2 abans=>	 fila: 7 col: 23 dir: 1 car:  
+Fantasma 2 després=>	 fila: 7 col: 22 dir: 1 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 46 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 47 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 11 col: 12 dir: 1 car:  
+Fantasma 1 després=>	 fila: 11 col: 11 dir: 1 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 13 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 12 dir: 1 car:  
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1 - Direcció 2, nd=2
+Fantasma 2 abans=>	 fila: 7 col: 22 dir: 2 car:  
+Fantasma 2 després=>	 fila: 8 col: 22 dir: 2 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 47 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 48 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 3, nd=1
+NORMAL = 1 - Direcció 0, nd=2
+NORMAL = 1 - Direcció 12, nd=3
+Fantasma 1 abans=>	 fila: 11 col: 11 dir: 2 car:  
+Fantasma 1 després=>	 fila: 12 col: 11 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 0 abans=>	 fila: 11 col: 12 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 11 dir: 1 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 2, nd=2
+NORMAL = 1 - Direcció 8, nd=3
+Fantasma 2 abans=>	 fila: 8 col: 22 dir: 3 car:  
+Fantasma 2 després=>	 fila: 8 col: 23 dir: 3 car:  
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 48 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 49 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 1 abans=>	 fila: 12 col: 11 dir: 2 car:  
+Fantasma 1 després=>	 fila: 13 col: 11 dir: 2 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+NORMAL = 1 - Direcció 12, nd=3
+Fantasma 0 abans=>	 fila: 11 col: 11 dir: 1 car:  
+Fantasma 0 després=>	 fila: 11 col: 10 dir: 1 car:  
+Posició menjacocos: 11 0
+NORMAL = 1 - Direcció 2, nd=1
+NORMAL = 1 - Direcció 3, nd=2
+NORMAL = 1 - Direcció 7, nd=3
+Fantasma 2 abans=>	 fila: 8 col: 23 dir: 3 car:  
+Fantasma 2 després=>	 fila: 8 col: 24 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1 - Direcció 1, nd=1
+NORMAL = 1
+Fantasma 3 abans=>	 fila: 1 col: 49 dir: 3 car: .
+Fantasma 3 després=>	 fila: 1 col: 50 dir: 3 car: .
+Posició menjacocos: 11 0
+NORMAL = 1
+NORMAL = 1
+NORMAL = 1
+Fantasma 1 bloquejat, donem la volta
+Fantasma 1 abans=>	 fila: 13 col: 11 dir: 0 car:  
+Fantasma 1 després=>	 fila: 12 col: 11 dir: 0 car:  
+Activant 1 mode cacera, menjacocos a la pos 8, 11
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 5.000000, moviment a (10,10)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 13.000000, moviment a (11,9)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 17.000000, moviment a (12,10)
+nd_secundari = 3
+Fantasma 0 desbloquejat, direcció 0
+Fantasma 0 abans=>	 fila: 11 col: 10 dir: 0 car:  
+Fantasma 0 després=>	 fila: 10 col: 10 dir: 0 car: +
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 170.000000, moviment a (9,24)
+Posició menjacocos: 8 11
+2-CACERA=>Moviment fila = 0, columna = 1 a les posicions (8,25)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 170.000000, moviment a (7,24)
+Fantasma 2 abans=>	 fila: 8 col: 24 dir: 3 car:  
+Fantasma 2 després=>	 fila: 8 col: 25 dir: 3 car: +
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 1557.000000, moviment a (2,50)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 1649.000000, moviment a (1,51)
+Posició menjacocos: 8 11
+PARET -> Direcció 0, posicion (0,50)
+nd_secundari = 2
+Fantasma 3 desbloquejat, direcció 2
+Fantasma 3 abans=>	 fila: 1 col: 50 dir: 2 car: .
+Fantasma 3 després=>	 fila: 2 col: 50 dir: 2 car: +
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 17.000000, moviment a (12,12)
+Posició menjacocos: 8 11
+1-CACERA=>Moviment fila = -1, columna = 0 a les posicions (11,11)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 17.000000, moviment a (12,10)
+Fantasma 1 abans=>	 fila: 12 col: 11 dir: 0 car:  
+Fantasma 1 després=>	 fila: 11 col: 11 dir: 0 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+0-CACERA=>Moviment fila = 0, columna = 1 a les posicions (10,11)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 2.000000, moviment a (9,10)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 8.000000, moviment a (10,9)
+Fantasma 0 abans=>	 fila: 10 col: 10 dir: 3 car: +
+Fantasma 0 després=>	 fila: 10 col: 11 dir: 3 car:  
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 197.000000, moviment a (9,25)
+Posició menjacocos: 8 11
+2-CACERA=>Moviment fila = 0, columna = 1 a les posicions (8,26)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 197.000000, moviment a (7,25)
+Fantasma 2 abans=>	 fila: 8 col: 25 dir: 3 car: +
+Fantasma 2 després=>	 fila: 8 col: 26 dir: 3 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 1480.000000, moviment a (2,49)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 1546.000000, moviment a (3,50)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 1636.000000, moviment a (2,51)
+nd_secundari = 3
+Fantasma 3 desbloquejat, direcció 1
+Fantasma 3 abans=>	 fila: 2 col: 50 dir: 1 car: +
+Fantasma 3 després=>	 fila: 2 col: 49 dir: 1 car: +
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 10.000000, moviment a (11,12)
+Posició menjacocos: 8 11
+1-CACERA=>Moviment fila = -1, columna = 0 a les posicions (10,11)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 10.000000, moviment a (11,10)
+Fantasma 1 abans=>	 fila: 11 col: 11 dir: 0 car:  
+Fantasma 1 després=>	 fila: 10 col: 11 dir: 0 car: 1
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+0-CACERA=>Moviment fila = 1, columna = 0 a les posicions (11,11)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 5.000000, moviment a (10,12)
+Posició menjacocos: 8 11
+0-CACERA=>Moviment fila = -1, columna = 0 a les posicions (9,11)
+Fantasma 0 abans=>	 fila: 10 col: 11 dir: 2 car:  
+Fantasma 0 després=>	 fila: 11 col: 11 dir: 2 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 226.000000, moviment a (9,26)
+Posició menjacocos: 8 11
+2-CACERA=>Moviment fila = 0, columna = 1 a les posicions (8,27)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 226.000000, moviment a (7,26)
+Fantasma 2 abans=>	 fila: 8 col: 26 dir: 3 car:  
+Fantasma 2 després=>	 fila: 8 col: 27 dir: 3 car: +
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 1493.000000, moviment a (1,49)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 1405.000000, moviment a (2,48)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 1469.000000, moviment a (3,49)
+nd_secundari = 3
+Fantasma 3 desbloquejat, direcció 1
+Fantasma 3 abans=>	 fila: 2 col: 49 dir: 1 car: +
+Fantasma 3 després=>	 fila: 2 col: 48 dir: 1 car: +
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 5.000000, moviment a (10,12)
+Posició menjacocos: 8 11
+1-CACERA=>Moviment fila = -1, columna = 0 a les posicions (9,11)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 5.000000, moviment a (10,10)
+Fantasma 1 abans=>	 fila: 10 col: 11 dir: 0 car: 1
+Fantasma 1 després=>	 fila: 9 col: 11 dir: 0 car:  
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 10.000000, moviment a (11,10)
+Posició menjacocos: 8 11
+0-CACERA=>Moviment fila = 1, columna = 0 a les posicions (12,11)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 10.000000, moviment a (11,12)
+Fantasma 0 abans=>	 fila: 11 col: 11 dir: 2 car:  
+Fantasma 0 després=>	 fila: 12 col: 11 dir: 2 car:  
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 257.000000, moviment a (9,27)
+Posició menjacocos: 8 11
+2-CACERA=>Moviment fila = 0, columna = 1 a les posicions (8,28)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 257.000000, moviment a (7,27)
+Fantasma 2 abans=>	 fila: 8 col: 27 dir: 3 car: +
+Fantasma 2 després=>	 fila: 8 col: 28 dir: 3 car:  
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 0, distancia 1418.000000, moviment a (1,48)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 1332.000000, moviment a (2,47)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 2, distancia 1394.000000, moviment a (3,48)
+nd_secundari = 3
+Fantasma 3 desbloquejat, direcció 1
+Fantasma 3 abans=>	 fila: 2 col: 48 dir: 1 car: +
+Fantasma 3 després=>	 fila: 2 col: 47 dir: 1 car: +
+Posició menjacocos: 8 11
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 3, distancia 2.000000, moviment a (9,12)
+Posició menjacocos: 8 11
+1-CACERA=>Moviment fila = -1, columna = 0 a les posicions (8,11)
+Posició menjacocos: 8 11
+CERCA DEL COMOCOS -> Direcció 1, distancia 2.000000, moviment a (9,10)
+Fantasma 1 abans=>	 fila: 9 col: 11 dir: 0 car:  
+Fantasma 1 després=>	 fila: 8 col: 11 dir: 0 car: 0
+Fantasma 1 capturat
+Menjacocos - Semafor 21 VERD
+Menjacocos - Esperem al semafor 21
+FI Fantasma 0Main - Esperem al semafor 21
+Main - Semafor 21 VERD
+FI Fantasma 2FI Fantasma 3FI Fantasma 1Menjacocos - Semafor 21 VERD
+Main - Esperem al semafor 21
+Main - Semafor 21 VERD
